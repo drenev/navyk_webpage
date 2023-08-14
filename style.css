@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EDEDED;
+    /* max-width: 1110px; */
+    margin: 0 auto;
+}
+
+/* nav-panel start */
+
+.nav-panel{
+    list-style: none;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    /* width: 1110px;
+    margin: 0 auto; */
+    position: fixed;
+    top: 0;   
+    left: 0;   
+    z-index: 9999;   
+    width: 100%
+}
+
+#navyk-text-logo{
+    margin-top: 2.5px;
+    margin-left: 425px;
+    width: 130px;
+    background-color: #FFFFFF;
+}
+
+#sep-line{
+    height: 25px;
+}
+
+.nav-center-links{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #2D2D2D;
+    font-size: 16px;
+    flex: 1 1 auto;
+    margin: 0 60px;
+    background-color: #FFFFFF;
+}
+
+.center-links-conteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+#nav-form-button{
+    margin-right: 425px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #9300ff;
+    font-size: 16px;
+    border: #9300ff 2px solid;
+    border-radius: 15px;
+    padding: 3px;
+    background-color: #FFFFFF;
+}
+
+/* nav-panel end */
+
+/* main-info-block start */
+
+#bg-draw-puzzle-1{
+    position: absolute;
+    z-index: -99;
+    margin-left: 1488px;
+    margin-top: -75px;
+    opacity: 75%;
+    filter: blur(25%);
+}
+
+#bg-draw-puzzle-2{
+    position: absolute;
+    z-index: -99;
+    margin-top: 350px;
+    opacity: 75%;
+    filter: blur(25%);
+}
+
+.title-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 38px;
+    color: #2D2D2D;
+}
+
+.desription-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color: #2D2D2D;
+}
+
+.purple-text{
+    color: #9300ff;
+}
+
+.main-text{
+    margin-top: 115px;
+    text-align: center;
+}
+
+.wrapper{
+    /* max-width: 1205px; */
+    width: 1050px;
+    margin: auto;
+    text-align: center;
+}
+
+.info-conteiner{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    width: 500px;
+    height: 110px;
+    background-color: #FFFFFF;
+    border: 5px #e0caf0 solid;
+    border-radius: 35px;
+}
+
+.info-conteiner p{
+    margin-top: 32px;
+    color: #2D2D2D;
+}
+
+#fgos-logo{
+    margin-top: 40px;
+    width: 180px;
+}
+
+#hand-shake{
+    height: 60px;
+    margin-top: 46px;
+}
+
+#border{
+    position: relative;
+    z-index: 99;
+    width: 40%;
+    margin-top: -63px;
+    opacity: 50%;
+}
+
+.info-conteiner-grid{
+    margin-top: 140px;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-row-gap: 60px;
+    grid-template-areas:    'box-1 .'
+                            '. box-2'
+                            'box-3 .';
+}
+
+.box-1{
+    grid-area: box-1;
+}
+
+.box-2{
+    grid-area: box-2;
+}
+
+.box-3{
+    grid-area: box-3;
+}
+
+/* main-info-block end */
+
