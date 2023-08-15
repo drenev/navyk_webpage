@@ -148,33 +148,67 @@
 
 
     <!-- form-block-START (OLEJA) -->
-    <h2>Заполни форму, чтобы оставить заявку</h2>
 
-    <form action="" method="post" class="main-form">
+    <div class="form-block">
+        <img src="assets/bg-puzzle-texture.png" alt="" id="bg-puzzle-texture">
+        <div class="wrapper">
 
-        <input id="POST-name" type="text" name="name" placeholder="Имя" />
-        <input id="POST-name" type="number" name="class" placeholder="Класс" />
-        <input id="POST-name" type="text" name="number" placeholder="Номер" />
+            <h2><span class="purple-text">Заполни форму,</span> чтобы оставить заявку</h2>
 
-        <input type="radio" name="person-slider" id="person-slider-parent" />
-        <label for="">Родитель</label>
+            <div class="form-and-logo">
 
-        <input type="radio" name="person-slider" id="person-slider-student" />
-        <label for="">Ученик</label>
+                <div class="logo-and-descritpion">
 
-        <input type="radio" name="accept-politic" id="accept-politic" />
-        <label for="">Ученик</label>
+                    <img src="assets/navyk-text-logo.png" alt="" id="down-logo">
+                    <p>больше, чем знания</p>
 
-        <input type="submit" value="Отправить" />
+                </div>
 
-    </form>
+                <form action="" method="post" class="main-form">
+                    <div class="info-lines">
+
+                        <input id="POST-name" type="text" name="name" placeholder="Имя" class="input-text" />
+                        <input id="POST-name" type="number" name="class" placeholder="Класс" class="input-text" />
+                        <input id="POST-name" type="text" name="number" placeholder="Номер" class="input-text" />
+
+                    </div>
+
+                    <div class="slider-line">
+
+                        <input type="radio" name="person-slider" id="person-slider-parent" />
+                        <input type="radio" name="person-slider" id="person-slider-student" />
+
+                        <img src="assets/form-sep-line.png" alt="" id="form-sep-line">
+
+                        <label for="" id="person-label-parent">Родитель</label>
+                        <label for="" id="person-label-student">Ученик</label>
+
+                    </div>
+
+                    <div class="accept-line">
+
+                        <input type="checkbox" name="accept-politic" id="accept-politic" />
+                        <label for="">Согласен(а) на обработку персональных данных</label>
+
+                    </div>
+
+                    <input type="submit" value="Отправить" id="form-button" />
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
 
     <!-- form-block-END (OLEJA) -->
 
 
 
     <!-- footer-START -->
-
+    <div class="footer-block">
+        *footer*
+    </div>
     <!-- footer-END -->
 
 </body>
