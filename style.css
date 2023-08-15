@@ -201,22 +201,23 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #808080;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     /* border: #9300ff 3px solid; */
     border-radius: 25px;
     width: 290px;
-    height: 75px;
+    height: 80px;
     background: #FFFFFF;
+    box-shadow: 0px 7px 11px -7px rgba(34, 60, 80, 0.15);
 
     text-align: center;
 }
 
 .subject-block p{
-    margin-top: 22px;
+    margin-top: 26px;
 }
 
 .block-grid-line-1{
-    margin-top: 80px;
+    margin-top: 60px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -233,5 +234,28 @@ body{
     justify-content: space-evenly;
 }
 
-
 /* sunject-menu-END */
+
+
+
+/* teacher-card-START */
+
+/* teacher-card-END */
+
+
+
+/* course-choice-START */
+
+/* course-choice-END */
+
+
+
+/* form-block-START (OLEJA) */
+
+/* form-block-END (OLEJA) */
+
+
+
+/* footer-START */
+
+/* footer-END */
