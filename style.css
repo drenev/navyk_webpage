@@ -184,3 +184,54 @@ body{
 
 /* main-info-block end */
 
+/* sunject-menu-START */
+
+.sunject-menu{
+    text-align: center;
+    margin-top: 240px;
+}
+
+.sunject-menu h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #2D2D2D;
+    font-size: 30px;
+}
+
+.subject-block {
+    font-family: 'Montserrat', sans-serif;
+    color: #808080;
+    font-weight: 600;
+    font-size: 24px;
+    /* border: #9300ff 3px solid; */
+    border-radius: 25px;
+    width: 290px;
+    height: 75px;
+    background: #FFFFFF;
+
+    text-align: center;
+}
+
+.subject-block p{
+    margin-top: 22px;
+}
+
+.block-grid-line-1{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.block-grid-line-2{
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+/* sunject-menu-END */
