@@ -252,7 +252,18 @@ body{
 
 /* form-block-START (OLEJA) */
 
+.main-form{
+    width: 300px;
+    height: 450px;
+    border: #2D2D2D 2px solid;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 /* form-block-END (OLEJA) */
+
 
 
 
