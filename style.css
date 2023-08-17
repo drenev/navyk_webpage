@@ -430,6 +430,8 @@ body{
 .list-title{
     font-weight: 600;
     font-size: 18px;
+    color: #bebebe;
+    margin-bottom: 10px;
 }
 
 .social-icons{
