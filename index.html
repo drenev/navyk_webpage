@@ -1,253 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
     <!-- GOOGLE FONTS LINK -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet" />
-    <title>NAVYK.SCHOOL</title>
-
-</head>
-
-<body>
-
-    <!-- nav-panel-START -->
-
-    <ul class="nav-panel">
-
-        <!-- LOGO -->
-        <li>
-            <a href="#">
-                <img src="assets/navyk-text-logo.png" alt="" id="navyk-text-logo" />
-            </a>
-        </li>
-
-        <!-- center-nav-links -->
-        <li>
-            <div class="center-links-conteiner">
-                <a href="#" class="nav-center-links">обучение</a>
-                <img src="assets/line-separate.png" alt="" id="sep-line" />
-                <a href="#" class="nav-center-links">преподаватели</a>
-                <img src="assets/line-separate.png" alt="" id="sep-line" />
-                <a href="#" class="nav-center-links">курсы</a>
-            </div>
-        </li>
-
-        <!-- form-button -->
-        <li>
-            <a href="#" id="nav-form-button">оставить заявку</a>
-        </li>
-
-    </ul>
-
-    <!-- nav-panel-END -->
-
-    <!-- main-info-block-START -->
-
-    <!-- puzzle-bg-picture -->
-    <img src="assets/draw-puzzle-1.png" alt="" id="bg-draw-puzzle-1">
-    <img src="assets/draw-puzzle-2.png" alt="" id="bg-draw-puzzle-2">
-
-    <div class="wrapper">
-
-        <!-- title text -->
-        <div class="main-text">
-            <h1 class="title-text">ОНЛАЙН-ШКОЛА <span class="purple-text">НОВОГО ПОКОЛЕНИЯ</span></h1>
-            <h2 class="desription-text">минимум усилий<span class="purple-text"> - максимум результата</span></h2>
-        </div>
-
-        <div class="info-conteiner-grid">
-
-            <!-- info-block-1 -->
-            <div class="info-conteiner">
-                <p><span class="purple-text box-1">Коммуникативно–деятельностный<br></span> подход к обучению</p>
-                <img src="assets/fgos-logo.png" alt="" id="fgos-logo">
-            </div>
-
-            <!-- info-block-2 -->
-            <div class="info-conteiner box-2">
-                <p><span class="purple-text">Выход за рамки<br></span> школьной программы</p>
-                <img src="assets/border.png" alt="" id="border">
-            </div>
-
-            <!-- info-block-3 -->
-            <div class="info-conteiner box-3">
-                <p><span class="purple-text">Сотрудничество молодых специалистов<br></span> с заслуженными учёными</p>
-                <img src="assets/hand-shake.png" alt="" id="hand-shake">
-            </div>
-
-        </div>
-
-    </div>
-
-    <!-- main-info-block-END -->
-
-
-
-    <!-- sunject-menu-START (OLEJA) -->
-
-    <div class="sunject-menu">
-
-        <div class="wrapper">
-
-            <h2><span class="purple-text">Выбери предмет</span> для изучения</h2>
-
-            <div class="block-grid-line-1">
-
-                <div class="subject-block">
-                    <p>русский язык</p>
-                </div>
-
-                <div class="subject-block">
-                    <p>математика</p>
-                </div>
-
-                <div class="subject-block">
-                    <p>обществознание</p>
-                </div>
-
-            </div>
-
-            <div class="block-grid-line-2">
-
-                <div class="subject-block">
-                    <p>английский язык</p>
-                </div>
-
-                <div class="subject-block">
-                    <p>биология</p>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <!-- sunject-menu-END (OLEJA) -->
-
-
-
-    <!-- teacher-card-START -->
-
-    <!-- teacher-card-END -->
-
-
-
-    <!-- course-choice-START -->
-
-    <!-- course-choice-END -->
-
-
-
-    <!-- form-block-START (OLEJA) -->
-
-    <div class="form-block">
-        <img src="assets/bg-puzzle-texture.png" alt="" id="bg-puzzle-texture">
-        <div class="wrapper">
-
-            <h2><span class="purple-text">Заполни форму,</span> чтобы оставить заявку</h2>
-
-            <div class="form-and-logo">
-
-                <div class="logo-and-descritpion">
-
-                    <img src="assets/navyk-text-logo.png" alt="" id="down-logo">
-                    <p>больше, чем знания</p>
-
-                </div>
-
-                <form action="" method="post" class="main-form">
-                    <div class="info-lines">
-
-                        <input id="POST-name" type="text" name="name" placeholder="Имя" class="input-text" />
-                        <input id="POST-name" type="number" name="class" placeholder="Класс" class="input-text" />
-                        <input id="POST-name" type="text" name="number" placeholder="Номер" class="input-text" />
-
-                    </div>
-
-                    <div class="slider-line">
-
-                        <input type="radio" name="person-slider" id="person-slider-parent" />
-                        <input type="radio" name="person-slider" id="person-slider-student" />
-
-                        <img src="assets/form-sep-line.png" alt="" id="form-sep-line">
-
-                        <label for="" id="person-label-parent">Родитель</label>
-                        <label for="" id="person-label-student">Ученик</label>
-
-                    </div>
-
-                    <div class="accept-line">
-
-                        <input type="checkbox" name="accept-politic" id="accept-politic" />
-                        <label for="">Согласен(а) на обработку персональных данных</label>
-
-                    </div>
-
-                    <input type="submit" value="Отправить" id="form-button" />
-
-                </form>
-
-            </div>
-
-        </div>
-    </div>
-
-    <!-- form-block-END (OLEJA) -->
-
-
-
-    <!-- footer-START -->
-
-    <div class="footer-block">
-
-        <img src="assets/white-navyk-text-logo.png" alt="" id="white-logo">
-
-        <div class="social-links">
-
-            <p class="list-title">Наши соцсети</p>
-
-            <div class="social-icons">
-
-                <a href=""><img src="assets/tg.png" alt=""></a>
-                <a href=""><img src="assets/vk.png" alt=""></a>
-                <a href=""><img src="assets/yt.png" alt=""></a>
-
-            </div>
-
-        </div>
-
-        <ul class="contact-list">
-
-            <li class="list-title">Наши контакты</li>
-            <li>+7 999 999 99 99</li>
-            <li>ya-eblan-2006@mail.ru</li>
-
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="navigation__wrapper">
+        <img
+          src="../assets/navyk-text-logo.png"
+          alt="navigation__logo"
+          class="navigation__logo"
+        />
+        <ul class="navigation__list">
+          <li class="navigation__list-el">
+            <a href="" class="navigation__link">обучение</a>
+          </li>
+          <li class="navigation__list-el">|</li>
+          <li class="navigation__list-el">
+            <a href="" class="navigation__link">преподаватели</a>
+          </li>
+          <li class="navigation__list-el">|</li>
+          <li class="navigation__list-el">
+            <a href="" class="navigation__link">курсы</a>
+          </li>
         </ul>
-
-        <ul class="contact-list" id="right-footer-list">
-
-            <li class="list-title">Юридическая информация</li>
-            <li>ИП: СУХОВ ВЛАДИСЛАВ СЕРГЕЕВИЧ</li>
-            <li>ОГРН: 323508100368822</li>
-            <li>ИНН: 501807943440</li>
-            <li>Адрес: 141076, Московская область, <br>г. Королёв,
-                ул. Калининградская, дом 17, <br>корп. 2, кв. 266</li>
-
-        </ul>
-
-    </div>
-
-    <!-- footer-END -->
-
-</body>
-
+        <a href="#" class="navigation__button-link">
+          <div class="navigation__button">оставить заявку</div>
+        </a>
+      </div>
+    </nav>
+    <header class="header">
+      <h1 class="header__tittle">
+        ОНЛАЙН-ШКОЛА <span class="colour-purple">НОВОГО ПОКОЛЕНИЯ</span>
+      </h1>
+      <p class="header__subtittle">
+        минимум усилий <span class="colour-purple">- максимум результата</span>
+      </p>
+    </header>
+    <section class="discription">
+      <div class="description__card">
+        <div class="description__text-card">
+          <p class="description__text">
+            <span class="colour-purple">Коммуникативно–деятельностный</span>
+          </p>
+          <p class="description__text">подход к обучению</p>
+        </div>
+        <img
+          src="../assets/fgos-logo.png"
+          alt="description__image"
+          class="description__image description__image_fgos"
+        />
+      </div>
+      <div class="description__card">
+        <div class="description__text-card">
+          <p class="description__text">
+            <span class="colour-purple">Выход за рамки</span>
+          </p>
+          <p class="description__text">школьной программы</p>
+          <img
+            src="../assets/border.png"
+            alt="description__border"
+            class="description__border"
+          />
+        </div>
+      </div>
+      <div class="description__card">
+        <div class="description__text-card">
+          <p class="description__text">
+            <span class="colour-purple"
+              >Сотрудничество молодых специалистов</span
+            >
+          </p>
+          <p class="description__text">с заслуженными учёными</p>
+        </div>
+        <img
+          src="../assets/hand-shake.png"
+          alt="description__image"
+          class="description__image description__image_handeshake"
+        />
+      </div>
+    </section>
+    <section class="subjects">
+      <h2 class="subjects__tittle">
+        <span class="colour-purple">Направления</span> обучения
+      </h2>
+      <ul class="subjects__list">
+        <li class="subjects__el">русский язык</li>
+        <li class="subjects__el">математика</li>
+        <li class="subjects__el">обществознание</li>
+        <li class="subjects__el">английский язык</li>
+        <li class="subjects__el">биология</li>
+      </ul>
+    </section>
+    <section class="teachers">
+      <h2 class="teachers__tittle">
+        <span class="colour-purple">Преподаватели</span> русского языка
+      </h2>
+      <div class="teachers__card">
+        <div class="teachers__photo"></div>
+        <div class="teachers__description">
+          <h2 class="teachers__name">СУХОВ</h2>
+          <h2 class="teachers__name">Владислав Сергеевич</h2>
+          <ul class="teachers__text">
+            <li class="teachers__paragraph">
+              Преподаватель регионального образовательного центра "Взлёт"
+            </li>
+            <li class="teachers__paragraph">
+              Преподаватель школьной академии главы города Королёва
+            </li>
+            <li class="teachers__paragraph">
+              Учитель русского языка одного из лучших лицеев Подмосковья
+            </li>
+            <li class="teachers__paragraph">
+              Победитель олимпиад по русскому языку разных уровней
+            </li>
+            <li class="teachers__paragraph">
+              Студент факультета русской филологии Государственного университета
+              просвещения
+            </li>
+            <li class="teachers__paragraph">
+              Участник научных конференций разных уровней по лингвистике и
+              лингвометодике
+            </li>
+            <li class="teachers__paragraph">
+              Участник Всероссийского студенческого конгресса лидеров
+              педагогических вузов
+            </li>
+            <li class="teachers__paragraph">
+              Закончил школу с золотой медалью
+            </li>
+            <li class="teachers__paragraph">
+              Сдал ОГЭ на 5 и ЕГЭ на 90+ без специальной подготовки
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
