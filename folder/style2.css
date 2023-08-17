@@ -1,0 +1,124 @@
+* {
+  /* border: 1px solid red; */
+  font-family: "Montserrat", sans-serif;
+  color: #2d2d2d;
+}
+body {
+  background-color: #ededed;
+}
+.navigation {
+  background-color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.navigation__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  width: 65%;
+}
+.navigation__logo {
+  width: 130px;
+}
+.navigation__list {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+.navigation__list-el {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.navigation__link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.navigation__button {
+  font-weight: 600;
+  text-decoration: none;
+  color: #9300ff;
+  font-size: 16px;
+  border: #9300ff 2px solid;
+  border-radius: 15px;
+  padding: 3px;
+}
+.colour-purple {
+  color: #9300ff;
+}
+.header {
+  width: 65%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.header__tittle {
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 62px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.header__subtittle {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.discription {
+  width: 65%;
+  margin: auto;
+  display: grid;
+}
+.description__card {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+}
+.description__card:nth-child(even) {
+  justify-self: end;
+  margin-bottom: 10px;
+}
+.description__text-card {
+  border: 5px #e0caf0 solid;
+  border-radius: 35px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.description__text {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  z-index: 2;
+}
+.description__image {
+  margin: auto;
+}
+.description__image_fgos {
+  width: 223px;
+}
+.description__border {
+  position: absolute;
+  z-index: 0;
+}
+.description__image_handeshake {
+  width: 100px;
+}
