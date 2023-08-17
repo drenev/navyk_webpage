@@ -413,11 +413,33 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+
+    font-family: 'Montserrat', sans-serif;
+    color: #808080;
+}
+
+.footer-block li{
+    list-style: none;
 }
 
 #white-logo{
     /* height: auto; */
     /* margin: auto; */
+}
+
+.list-title{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#right-footer-list{
+    max-width: 300px;
 }
 
 /* footer-END */
