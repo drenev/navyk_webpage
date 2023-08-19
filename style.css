@@ -86,7 +86,7 @@ body {
 }
 .description__card:nth-child(even) {
   justify-self: end;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
 }
 .description__text-card {
   border: 5px #e0caf0 solid;
@@ -110,7 +110,7 @@ body {
   margin: auto;
 }
 .description__image_fgos {
-  width: 160px;
+  width: 150px;
   margin-top: -12px;
   opacity: 60%;
 }
