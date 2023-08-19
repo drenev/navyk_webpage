@@ -1,7 +1,7 @@
 * {
   /* border: 1px solid red; */
   font-family: "Montserrat", sans-serif;
-  font-size: 32px;
+  /* font-size: 32px; */
   color: #2d2d2d;
 }
 body {
@@ -69,6 +69,7 @@ body {
   text-align: center;
 }
 .header__subtittle {
+  font-size: 32px;
   font-weight: 500;
   line-height: 44px;
   text-align: center;
@@ -109,20 +110,24 @@ body {
   margin: auto;
 }
 .description__image_fgos {
-  width: 223px;
+  width: 160px;
+  margin-top: -12px;
+  opacity: 60%;
 }
 .description__border {
   position: absolute;
   z-index: 0;
 }
 .description__image_handeshake {
-  width: 100px;
+  width: 110px;
+  opacity: 60%;
 }
 .subjects {
   width: 65%;
   margin: auto;
 }
 .subjects__tittle {
+  font-size: 32px;
   margin-top: 100px;
   margin-bottom: 40px;
   font-weight: 600;
@@ -162,6 +167,7 @@ body {
   align-items: center;
 }
 .teachers__tittle {
+  font-size: 32px;
   margin-top: 100px;
   margin-bottom: 40px;
   font-weight: 600;
@@ -192,15 +198,16 @@ body {
 }
 .teachers__name {
   margin-top: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 28px;
   font-weight: 600;
-  line-height: 34px;
+  /* line-height: 34px; */
   text-align: center;
   color: #9300ff;
 }
 .teachers__name:first-child {
-  margin-bottom: 0;
+  margin-bottom: -15px;
+  /* font-weight: 600; */
 }
 .teachers__text {
   font-size: 14px;
@@ -212,9 +219,9 @@ body {
 .teachers__paragraph {
   margin-bottom: 5px;
   list-style-type: disc;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
   text-align: left;
 }
 .teachers__paragraph:last-child {
