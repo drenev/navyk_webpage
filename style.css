@@ -300,13 +300,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  align-items: flex-start;
+  align-items: center;
+  width: 25%;
   min-width: 200px;
   margin-top: 20px;
 }
 .footer__tag {
-  margin-left: auto;
-  margin-right: auto;
+  align-self: center;
   margin-top: 10px;
   font-weight: 400;
   color: #808080;
@@ -323,6 +323,9 @@ body {
   display: flex;
   justify-content: space-between;
   min-width: 150px;
+}
+.footer__legal{
+  align-self: start;
 }
 .footer__legal-list {
   font-weight: 400;
