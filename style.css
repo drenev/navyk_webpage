@@ -257,8 +257,28 @@ body {
   width: 332px;
   border-radius: 25px;
   color: white;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.form-section {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d5d5d5;
+}
+.footer {
+  height: 270px;
+  width: 100%;
+  background-color: #151515;
+  display: flex;
+  justify-content: center;
+}
+.footer__wrapper {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
