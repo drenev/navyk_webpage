@@ -1,8 +1,11 @@
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   font-family: "Montserrat", sans-serif;
   /* font-size: 32px; */
   color: #2d2d2d;
+}
+a:hover {
+  opacity: 0.7;
 }
 body {
   background-color: #ededed;
@@ -289,6 +292,7 @@ body {
   justify-content: left;
   align-items: flex-start;
   min-width: 200px;
+  margin-top: 20px;
 }
 .footer__tag {
   margin-left: auto;
@@ -306,6 +310,7 @@ body {
 .footer__social-list {
   display: flex;
   justify-content: space-between;
+  min-width: 150px;
 }
 .footer__legal-list {
   font-size: 12px;
