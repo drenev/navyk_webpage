@@ -23,6 +23,7 @@ body {
   margin: auto;
   align-items: center;
   width: 65%;
+  max-width: 1600px;
 }
 .navigation__logo {
   width: 130px;
@@ -81,6 +82,7 @@ body {
   width: 65%;
   margin: auto;
   display: grid;
+  max-width: 1600px;
 }
 .description__card {
   width: 550px;
@@ -128,6 +130,7 @@ body {
 .subjects {
   width: 65%;
   margin: auto;
+  max-width: 1000px;
 }
 .subjects__tittle {
   font-size: 32px;
@@ -232,6 +235,7 @@ body {
 }
 .courses {
   width: 65%;
+  max-width: 1600px;
   margin: auto;
 }
 .courses__header {
@@ -282,6 +286,7 @@ body {
 }
 .footer__wrapper {
   width: 80%;
+  max-width: 1600px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
