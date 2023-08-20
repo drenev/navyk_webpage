@@ -1,253 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- 
     <meta property="og:tittle" content="НАВЫК"/>
     <meta property="og:site_name" content="ABOBA"/>
     <meta property="og:url" content="index.html"/>
     <meta property="og:description" content="loremloremloremloremlorem"/>
     <meta property="og:image" content="assets/preview-image.svg"/> -->
 
-    <title>НАВЫК</title>
-    <link
-      rel="shortcut icon"
-      href="assets/puzzle-icon.svg"
-      type="image/x-icon"
-    />
+  <title>НАВЫК</title>
+  <link rel="shortcut icon" href="assets/puzzle-icon.svg" type="image/x-icon" />
 
-    <!-- GOOGLE FONTS LINK -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+  <!-- GOOGLE FONTS LINK -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
 
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<!-- ===================== -->
+
+<body>
+  <nav class="navigation">
+    <div class="navigation__wrapper">
+      <img src="./assets/logotype.svg" alt="navigation__logo" class="navigation__logo" />
+      <ul class="navigation__list">
+        <li class="navigation__list-el">
+          <a href="" class="navigation__link">обучение</a>
+        </li>
+        <li class="navigation__list-el">|</li>
+        <li class="navigation__list-el">
+          <a href="" class="navigation__link">преподаватели</a>
+        </li>
+        <li class="navigation__list-el">|</li>
+        <li class="navigation__list-el">
+          <a href="" class="navigation__link">курсы</a>
+        </li>
+      </ul>
+      <a href="#" class="navigation__button-link">
+        <div class="navigation__button">оставить заявку</div>
+      </a>
+    </div>
+  </nav>
 
   <!-- ===================== -->
 
-  <body>
-    <nav class="navigation">
-      <div class="navigation__wrapper">
-        <img
-          src="./assets/logotype.svg"
-          alt="navigation__logo"
-          class="navigation__logo"
-        />
-        <ul class="navigation__list">
-          <li class="navigation__list-el">
-            <a href="" class="navigation__link">обучение</a>
+  <header class="header">
+    <h1 class="header__tittle">
+      ОНЛАЙН-ШКОЛА <span class="colour-purple">НОВОГО ПОКОЛЕНИЯ</span>
+    </h1>
+    <p class="header__subtittle">
+      минимум усилий <span class="colour-purple">- максимум результата</span>
+    </p>
+  </header>
+
+  <!-- ===================== -->
+
+  <section class="discription">
+    <div class="description__card">
+      <div class="description__text-card">
+        <p class="description__text">
+          <span class="colour-purple">Коммуникативно–деятельностный</span>
+        </p>
+        <p class="description__text">подход к обучению</p>
+      </div>
+      <img src="./assets/fgos-logo.svg" alt="description__image" class="description__image description__image_fgos" />
+    </div>
+    <div class="description__card">
+      <div class="description__text-card">
+        <p class="description__text">
+          <span class="colour-purple">Выход за рамки</span>
+        </p>
+        <p class="description__text">школьной программы</p>
+        <img src="./assets/description_border.svg" alt="description__border" class="description__border" />
+      </div>
+    </div>
+    <div class="description__card">
+      <div class="description__text-card">
+        <p class="description__text">
+          <span class="colour-purple">Сотрудничество молодых специалистов</span>
+        </p>
+        <p class="description__text">с заслуженными учёными</p>
+      </div>
+      <img src="./assets/hand-shake.svg" alt="description__image"
+        class="description__image description__image_handeshake" />
+    </div>
+  </section>
+
+  <!-- ===================== -->
+
+  <section class="subjects">
+    <h2 class="subjects__tittle">
+      <span class="colour-purple">Направления</span> обучения
+    </h2>
+    <ul class="subjects__list">
+      <li class="subjects__el">русский язык</li>
+      <li class="subjects__el">математика</li>
+      <li class="subjects__el">обществознание</li>
+      <li class="subjects__el">английский язык</li>
+      <li class="subjects__el">биология</li>
+    </ul>
+  </section>
+
+  <!-- ===================== -->
+
+  <section class="teachers">
+    <h2 class="teachers__tittle">
+      <span class="colour-purple">Преподаватели</span> русского языка
+    </h2>
+    <div class="teachers__card">
+      <div class="teachers__photo">
+        <img class="teachers__photos" src="./assets/peoples/vlad.png" alt="teacher_photo" />
+      </div>
+      <div class="teachers__description">
+        <h2 class="teachers__name">СУХОВ</h2>
+        <h2 class="teachers__name">Владислав Сергеевич</h2>
+        <ul class="teachers__text">
+          <li class="teachers__paragraph">
+            преподаватель регионального образовательного центра "Взлёт" и
+            школьной академии главы города Королёва
           </li>
-          <li class="navigation__list-el">|</li>
-          <li class="navigation__list-el">
-            <a href="" class="navigation__link">преподаватели</a>
+          <li class="teachers__paragraph">
+            учитель русского языка в одном из лучших лицеев Подмосковья
           </li>
-          <li class="navigation__list-el">|</li>
-          <li class="navigation__list-el">
-            <a href="" class="navigation__link">курсы</a>
+          <li class="teachers__paragraph">
+            составитель и проверяющий отборочных этапов ВсОШ по русскому языку
+          </li>
+          <li class="teachers__paragraph">
+            победитель филологических олимпиад разных уровней, участник
+            научных конференций по лингвистике и лингвометодике
+          </li>
+          <li class="teachers__paragraph">
+            закончил школу с золотой медалью, сдал ОГЭ на 5 и ЕГЭ на 90+ без
+            специальной подготовки
           </li>
         </ul>
-        <a href="#" class="navigation__button-link">
-          <div class="navigation__button">оставить заявку</div>
-        </a>
       </div>
-    </nav>
+    </div>
+  </section>
 
-    <!-- ===================== -->
+  <!-- ===================== -->
 
-    <header class="header">
-      <h1 class="header__tittle">
-        ОНЛАЙН-ШКОЛА <span class="colour-purple">НОВОГО ПОКОЛЕНИЯ</span>
-      </h1>
-      <p class="header__subtittle">
-        минимум усилий <span class="colour-purple">- максимум результата</span>
-      </p>
-    </header>
+  <section class="courses">
+    <h2 class="courses__header">
+      <span class="colour-purple">Выбери интересующий</span> тебя курс
+    </h2>
+    <p class="courses__description">
+      * наведи курсор, чтобы узнать больше информации
+    </p>
+    <div class="courses__container">
+      <div class="courses__item">ОСНОВНОЙ</div>
+      <div class="courses__item">УГЛУБЛЁННЫЙ</div>
+      <div class="courses__item">ПОС*СНЫЙ</div>
+    </div>
+  </section>
 
-    <!-- ===================== -->
+  <!-- ===================== -->
 
-    <section class="discription">
-      <div class="description__card">
-        <div class="description__text-card">
-          <p class="description__text">
-            <span class="colour-purple">Коммуникативно–деятельностный</span>
-          </p>
-          <p class="description__text">подход к обучению</p>
-        </div>
-        <img
-          src="./assets/fgos-logo.svg"
-          alt="description__image"
-          class="description__image description__image_fgos"
-        />
+  <section class="form-section">
+    <p>тут будет форма обратной связи</p>
+  </section>
+
+  <!-- ===================== -->
+
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <div class="footer__block">
+        <img src="./assets/footer_logo.svg" alt="footer__logo-image" class="footer__logo-image" />
+        <p class="footer__tag">@navyk.school</p>
       </div>
-      <div class="description__card">
-        <div class="description__text-card">
-          <p class="description__text">
-            <span class="colour-purple">Выход за рамки</span>
-          </p>
-          <p class="description__text">школьной программы</p>
-          <img
-            src="./assets/description_border.svg"
-            alt="description__border"
-            class="description__border"
-          />
-        </div>
+      <div class="footer__block">
+        <p class="footer__subtittle">Наши соцсети</p>
+        <ul class="footer__social-list">
+          <li class="footer__social-list-el">
+            <a href="" class="footer__social-link">
+              <img src="./assets/tg.svg" alt="tg-image" class="tg-image" />
+            </a>
+          </li>
+          <li class="footer__social-list-el">
+            <a href="https://vk.com/navyk.school" class="footer__social-link"><img src="./assets/vk.svg" alt="vk-image"
+                class="vk-image" /></a>
+          </li>
+          <li class="footer__social-list-el">
+            <a href="" class="footer__social-link"><img src="./assets/yt.svg" alt="yt-image" class="yt-image" /></a>
+          </li>
+        </ul>
       </div>
-      <div class="description__card">
-        <div class="description__text-card">
-          <p class="description__text">
-            <span class="colour-purple"
-              >Сотрудничество молодых специалистов</span
-            >
-          </p>
-          <p class="description__text">с заслуженными учёными</p>
-        </div>
-        <img
-          src="./assets/hand-shake.svg"
-          alt="description__image"
-          class="description__image description__image_handeshake"
-        />
+      <div class="footer__block">
+        <p class="footer__subtittle">Наши контакты</p>
+        <a href="tel:+79999999999" class="footer__contacts-number">+7 999 999 99 99</a>
+        <a href="mailto:ya-eblan-2006@mail.ru" class="footer__contacts-email">ya-eblan-2006@mail.ru</a>
       </div>
-    </section>
-
-    <!-- ===================== -->
-
-    <section class="subjects">
-      <h2 class="subjects__tittle">
-        <span class="colour-purple">Направления</span> обучения
-      </h2>
-      <ul class="subjects__list">
-        <li class="subjects__el">русский язык</li>
-        <li class="subjects__el">математика</li>
-        <li class="subjects__el">обществознание</li>
-        <li class="subjects__el">английский язык</li>
-        <li class="subjects__el">биология</li>
-      </ul>
-    </section>
-
-    <!-- ===================== -->
-
-    <section class="teachers">
-      <h2 class="teachers__tittle">
-        <span class="colour-purple">Преподаватели</span> русского языка
-      </h2>
-      <div class="teachers__card">
-        <div class="teachers__photo">
-          <img
-            class="teachers__photos"
-            src="./assets/peoples/vlad.png"
-            alt="teacher_photo"
-          />
-        </div>
-        <div class="teachers__description">
-          <h2 class="teachers__name">СУХОВ</h2>
-          <h2 class="teachers__name">Владислав Сергеевич</h2>
-          <ul class="teachers__text">
-            <li class="teachers__paragraph">
-              преподаватель регионального образовательного центра "Взлёт" и
-              школьной академии главы города Королёва
-            </li>
-            <li class="teachers__paragraph">
-              учитель русского языка в одном из лучших лицеев Подмосковья
-            </li>
-            <li class="teachers__paragraph">
-              составитель и проверяющий отборочных этапов ВсОШ по русскому языку
-            </li>
-            <li class="teachers__paragraph">
-              победитель филологических олимпиад разных уровней, участник
-              научных конференций по лингвистике и лингвометодике
-            </li>
-            <li class="teachers__paragraph">
-              закончил школу с золотой медалью, сдал ОГЭ на 5 и ЕГЭ на 90+ без
-              специальной подготовки
-            </li>
-          </ul>
-        </div>
+      <div class="footer__block">
+        <p class="footer__subtittle">Юридическая информация</p>
+        <ul class="footer__legal-list">
+          <li class="footer__legal-list-el">ИП: СУХОВ ВЛАДИСЛАВ СЕРГЕЕВИЧ</li>
+          <li class="footer__legal-list-el">ОГРН: 323508100368822</li>
+          <li class="footer__legal-list-el">ИНН: 501807943440</li>
+          <li class="footer__legal-list-el">
+            Адрес: 141076, Московская область, г. Королёв, ул.
+            Калининградская, дом 17
+          </li>
+        </ul>
       </div>
-    </section>
+    </div>
+  </footer>
+</body>
 
-    <!-- ===================== -->
-
-    <section class="courses">
-      <h2 class="courses__header">
-        <span class="colour-purple">Выбери интересующий</span> тебя курс
-      </h2>
-      <p class="courses__description">
-        * наведи курсор, чтобы узнать больше информации
-      </p>
-      <div class="courses__container">
-        <div class="courses__item">ОСНОВНОЙ</div>
-        <div class="courses__item">УГЛУБЛЁННЫЙ</div>
-        <div class="courses__item">ПОС*СНЫЙ</div>
-      </div>
-    </section>
-
-    <!-- ===================== -->
-
-    <section class="form-section">
-      <p>тут будет форма обратной связи</p>
-    </section>
-
-    <!-- ===================== -->
-
-    <footer class="footer">
-      <div class="footer__wrapper">
-        <div class="footer__block">
-          <img
-            src="./assets/footer_logo.svg"
-            alt="footer__logo-image"
-            class="footer__logo-image"
-          />
-          <p class="footer__tag">@navyk.school</p>
-        </div>
-        <div class="footer__block">
-          <p class="footer__subtittle">Наши соцсети</p>
-          <ul class="footer__social-list">
-            <li class="footer__social-list-el">
-              <a href="" class="footer__social-link">
-                <img src="./assets/tg.svg" alt="tg-image" class="tg-image" />
-              </a>
-            </li>
-            <li class="footer__social-list-el">
-              <a href="https://vk.com/navyk.school" class="footer__social-link"
-                ><img src="./assets/vk.svg" alt="vk-image" class="vk-image"
-              /></a>
-            </li>
-            <li class="footer__social-list-el">
-              <a href="" class="footer__social-link"
-                ><img src="./assets/yt.svg" alt="yt-image" class="yt-image"
-              /></a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__block">
-          <p class="footer__subtittle">Наши контакты</p>
-          <a href="tel:+79999999999" class="footer__contacts-number"
-            >+7 999 999 99 99</a
-          >
-          <a href="mailto:ya-eblan-2006@mail.ru" class="footer__contacts-email"
-            >ya-eblan-2006@mail.ru</a
-          >
-        </div>
-        <div class="footer__block">
-          <p class="footer__subtittle">Юридическая информация</p>
-          <ul class="footer__legal-list">
-            <li class="footer__legal-list-el">ИП: СУХОВ ВЛАДИСЛАВ СЕРГЕЕВИЧ</li>
-            <li class="footer__legal-list-el">ОГРН: 323508100368822</li>
-            <li class="footer__legal-list-el">ИНН: 501807943440</li>
-            <li class="footer__legal-list-el">
-              Адрес: 141076, Московская область, г. Королёв, ул.
-              Калининградская, дом 17
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-  </body>
 </html>

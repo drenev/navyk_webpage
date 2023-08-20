@@ -304,7 +304,9 @@ body {
 .footer__tag {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 10px;  
+  font-weight: 400;
+  color: #808080;
 }
 .footer__subtittle {
   font-size: 20px;
@@ -320,8 +322,21 @@ body {
   min-width: 150px;
 }
 .footer__legal-list {
+  font-weight: 400;
+  color: #808080;
   font-size: 12px;
-  font-weight: 600;
   line-height: 15px;
   text-align: left;
+}
+.footer__legal-list-el{
+  font-weight: 400;
+  color: #808080;
+}
+.footer__contacts-number{
+  font-weight: 400;
+  color: #808080;
+}
+.footer__contacts-email{
+  font-weight: 400;
+  color: #808080;
 }
