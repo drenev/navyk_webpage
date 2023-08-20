@@ -1,5 +1,5 @@
 * {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   font-family: "Montserrat", sans-serif;
   /* font-size: 32px; */
   color: #2d2d2d;
@@ -12,7 +12,7 @@ body {
 }
 .navigation {
   background-color: white;
-  height: 50px;
+  min-height: 50px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -80,14 +80,16 @@ body {
   line-height: 44px;
   text-align: center;
 }
-.discription {
+.description {
   width: 65%;
   margin: auto;
   display: grid;
   max-width: 1600px;
 }
 .description__card {
-  width: 550px;
+  width: 50%;
+  min-width: 400px;
+  max-width: 550px;
   display: flex;
   flex-direction: column;
 }
@@ -98,7 +100,7 @@ body {
 .description__text-card {
   border: 5px #e0caf0 solid;
   border-radius: 35px;
-  height: 150px;
+  min-height: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -153,7 +155,7 @@ body {
   font-size: 22px;
   border-radius: 25px;
   width: 300px;
-  height: 80px;
+  min-height: 80px;
   background: #ffffff;
   box-shadow: 0px 7px 11px -7px rgba(34, 60, 80, 0.15);
   text-align: center;
@@ -188,7 +190,7 @@ body {
   align-items: end;
 }
 .teachers__photo {
-  height: 477px;
+  min-height: 477px;
   margin-right: 40px;
   box-shadow: 0px 7px 11px -7px rgba(34, 60, 80, 0.15);
   border-radius: 35px;
@@ -196,7 +198,7 @@ body {
 }
 .teachers__description {
   max-width: 650px;
-  height: 450px;
+  min-height: 450px;
   background-color: white;
   box-shadow: 0px 7px 11px -7px rgba(34, 60, 80, 0.15);
   border-radius: 35px;
@@ -263,7 +265,8 @@ body {
 .courses__item {
   background-color: #9600ff;
   height: 446px;
-  width: 332px;
+  width: 30%;
+  max-width: 332px;
   border-radius: 25px;
   color: white;
 
@@ -304,7 +307,7 @@ body {
 .footer__tag {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;  
+  margin-top: 10px;
   font-weight: 400;
   color: #808080;
 }
@@ -328,15 +331,15 @@ body {
   line-height: 15px;
   text-align: left;
 }
-.footer__legal-list-el{
+.footer__legal-list-el {
   font-weight: 400;
   color: #808080;
 }
-.footer__contacts-number{
+.footer__contacts-number {
   font-weight: 400;
   color: #808080;
 }
-.footer__contacts-email{
+.footer__contacts-email {
   font-weight: 400;
   color: #808080;
 }
