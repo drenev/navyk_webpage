@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form class="contact-form" id="contactForm" action="#" method="post">
+        <div class="contact-form__customers">
+          <input
+            type="radio"
+            name="contactFormCustomer"
+            id="contactFormParentButton"
+            value="parent"
+          />
+          <label for="contactFormParentButton">Родитель</label>
+
+          <input
+            type="radio"
+            name="contactFormCustomer"
+            id="contactFormStudentButton"
+            value="student"
+          />
+          <label for="contactFormStudentButton">Ученик</label>
+        </div>
+        <input
+          type="text"
+          id="parentName"
+          name="parentName"
+          placeholder="Имя родителя"
+        />
+        <input
+          type="tel"
+          id="parentPhoneNumber"
+          name="parentPhoneNumber"
+          pattern="[0-9]{10}"
+          placeholder="Телефон родителя"
+        />
+        <input
+          type="email"
+          id="parentEmail"
+          name="parentEmail"
+          placeholder="Электронная почта родителя"
+        />
+        <select name="classNumber">
+          <option value="5">5 класс</option>
+          <option value="6">6 класс</option>
+          <option value="7">7 класс</option>
+          <option value="8">8 класс</option>
+          <option value="9">9 класс</option>
+          <option value="10">10 класс</option>
+          <option value="11">11 класс</option>
+        </select>
+        <input type="button" value="Перезвоните мне" />
+      </form>
+    </div>
+  </body>
+</html>
