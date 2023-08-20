@@ -1,5 +1,5 @@
 * {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   font-family: "Montserrat", sans-serif;
   /* font-size: 32px; */
   color: #2d2d2d;
@@ -263,22 +263,53 @@ body {
   justify-content: center;
 }
 .form-section {
-  height: 400px;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #d5d5d5;
 }
 .footer {
-  height: 270px;
+  min-height: 270px;
   width: 100%;
   background-color: #151515;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .footer__wrapper {
-  width: 65%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
+}
+.footer__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  min-width: 200px;
+}
+.footer__tag {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.footer__subtittle {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+.footer__social-list {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__legal-list {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  text-align: left;
 }
