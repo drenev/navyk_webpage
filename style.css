@@ -253,7 +253,7 @@ body {
   width: 80%;
   max-width: 1600px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 .footer__block {
@@ -280,7 +280,7 @@ body {
   font-size: 20px;
   font-weight: 600;
   line-height: 24px;
-  text-align: center;
+  text-align: left;
   color: white;
   margin-bottom: 20px;
 }
