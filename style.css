@@ -35,19 +35,21 @@ body {
 .description {
   width: 65%;
   margin: auto;
-  display: grid;
   max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .description__card {
   width: 50%;
-  min-width: 400px;
+  min-width: 200px;
   max-width: 550px;
   display: flex;
   flex-direction: column;
   z-index: -10;
 }
-.description__card:nth-child(even) {
-  justify-self: end;
+.description__card:nth-child(2n) {
+  align-self: flex-end;
   margin-bottom: 35px;
 }
 .description__text-card {
@@ -213,7 +215,7 @@ body {
 .courses__container {
   margin-top: 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
