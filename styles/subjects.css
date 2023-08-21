@@ -2,10 +2,10 @@
   width: 65%;
   margin: auto;
   max-width: 1000px;
+  margin-top: 100px;
 }
 .subjects__tittle {
   font-size: 32px;
-  margin-top: 100px;
   margin-bottom: 40px;
   font-weight: 600;
   line-height: 44px;
@@ -33,6 +33,18 @@
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* .subjects__el:first-child {
-    margin: 0;
-  } */
+
+@media (max-width: 1100px) {
+  .subjects {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .subjects {
+    margin-top: 40px;
+  }
+  .subjects__tittle {
+    font-size: 25px;
+  }
+}

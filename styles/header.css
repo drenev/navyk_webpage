@@ -29,6 +29,9 @@
   }
 }
 @media (max-width: 600px) {
+  .header {
+    margin-bottom: 30px;
+  }
   .header__tittle {
     font-size: 28px;
   }
@@ -39,5 +42,8 @@
 @media (max-width: 380px) {
   .header {
     margin-top: 150px;
+  }
+  .header__tittle {
+    font-size: 24px;
   }
 }
