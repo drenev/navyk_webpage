@@ -1,5 +1,5 @@
 * {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   font-family: "Montserrat", sans-serif;
   /* font-size: 32px; */
   color: #2d2d2d;
@@ -14,24 +14,6 @@ body {
 .colour-purple {
   color: #9300ff;
 }
-.header {
-  width: 65%;
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 60px;
-}
-.header__tittle {
-  font-size: 45px;
-  font-weight: 800;
-  line-height: 62px;
-  text-align: center;
-}
-.header__subtittle {
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 44px;
-  text-align: center;
-}
 .description {
   width: 65%;
   margin: auto;
@@ -42,8 +24,8 @@ body {
 }
 .description__card {
   width: 50%;
-  min-width: 200px;
-  max-width: 550px;
+  /* min-width: 200px;
+  max-width: 550px; */
   display: flex;
   flex-direction: column;
   z-index: -10;
