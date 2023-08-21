@@ -23,7 +23,7 @@ body {
 }
 .teachers__tittle {
   font-size: 32px;
-  margin-top: 100px;
+  margin-top: 300px;
   margin-bottom: 40px;
   font-weight: 600;
   line-height: 44px;
@@ -88,7 +88,7 @@ body {
   margin: auto;
 }
 .courses__header {
-  margin-top: 80px;
+  margin-top: 300px;
   font-size: 36px;
   font-weight: 600;
   line-height: 44px;
