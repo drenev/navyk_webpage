@@ -1,7 +1,6 @@
 * {
   /* border: 1px solid red; */
   font-family: "Montserrat", sans-serif;
-  /* font-size: 32px; */
   color: #2d2d2d;
 }
 a:hover {
@@ -104,22 +103,28 @@ body {
   opacity: 0.8;
 }
 .courses__container {
-  margin-top: 40px;
+  margin-top: 25px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 .courses__item {
-  margin-top: 10px;
-  background-color: #9600ff;
-  height: 450px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #fff;
+  height: 325px;
   max-height: 70vh;
   width: 30%;
   min-width: 200px;
   max-width: 332px;
   border-radius: 25px;
-  color: white;
+  box-shadow: 0px 7px 11px -7px rgba(34, 60, 80, 0.15);
+
+  font-size: 18px;
+  color: #2d2d2d;
+  font-weight: 500;
 
   display: flex;
   align-items: center;
