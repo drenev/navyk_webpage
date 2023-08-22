@@ -10,11 +10,10 @@
   width: 550px;
   display: flex;
   flex-direction: column;
-  z-index: -10;
 }
 .description__card:nth-child(2n) {
   align-self: flex-end;
-  margin-bottom: 35px;
+  /* margin-bottom: 35px; */
 }
 .description__text-card {
   border: 5px #e0caf0 solid;
@@ -40,11 +39,12 @@
 .description__image_fgos {
   width: 50%;
 }
-.description__border {
+.description__image-puzzle {
   width: 180px;
-  margin-top: 250px;
-  position: absolute;
+  margin-top: -25px;
   z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
 }
 .description__image_handeshake {
   width: 28%;
