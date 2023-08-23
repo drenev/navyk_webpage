@@ -18,7 +18,7 @@
   max-width: 1600px;
 }
 .navigation__logo {
-  width: 130px;
+  width: 150px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -44,7 +44,7 @@
   font-size: 16px;
   border: #9300ff 2px solid;
   border-radius: 15px;
-  padding: 3px;
+  padding: 8px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
