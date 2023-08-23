@@ -1,0 +1,7 @@
+#elementToStyle {
+  display: none;
+}
+
+#radioButton:checked ~ #elementToStyle {
+  display: inline;
+}
