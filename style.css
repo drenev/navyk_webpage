@@ -256,6 +256,25 @@ body {
   /* margin-top: 1%; */
 }
 
+.student-info-line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#studentName {
+  width: 250px;
+  margin: auto;
+  border-bottom: 1px #2d2d2d solid;
+  line-height: 38px;
+}
+#studentPhoneNumber {
+  width: 250px;
+  margin: auto;
+  border-bottom: 1px #2d2d2d solid;
+  line-height: 38px;
+}
+
 /* =================== */
 .footer {
   min-height: 270px;
