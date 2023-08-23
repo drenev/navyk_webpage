@@ -177,10 +177,10 @@ body {
   background: #ffffff;
   color: #ffffff;
 }
-#contactFormParentButton {
+/* #contactFormParentButton {
 }
 #contactFormStudentButton {
-}
+} */
 #parentName {
   width: 250px;
   margin: auto;
@@ -212,10 +212,10 @@ body {
   border-radius: 15px;
   cursor: pointer;
 }
-.form-section {
-  /* height: 500px; */
-  /* background-color: #d5d5d5; */
-}
+/* .form-section {
+  height: 500px;
+  background-color: #d5d5d5;
+} */
 .form-section__tittle {
   font-size: 32px;
   margin-top: 300px;
