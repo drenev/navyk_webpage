@@ -10,21 +10,25 @@
     <div class="wrapper">
       <form class="contact-form" id="contactForm" action="#" method="post">
         <div class="contact-form__customers">
-          <input
-            type="radio"
-            name="contactFormCustomer"
-            id="contactFormParentButton"
-            value="parent"
-          />
-          <label for="contactFormParentButton">Родитель</label>
-
-          <input
-            type="radio"
-            name="contactFormCustomer"
-            id="contactFormStudentButton"
-            value="student"
-          />
-          <label for="contactFormStudentButton">Ученик</label>
+          <label>
+            <input
+              type="radio"
+              name="contactFormCustomer"
+              id="contactFormParentButton"
+              value="parent"
+              checked
+            />
+            Родитель</label
+          >
+          <label>
+            <input
+              type="radio"
+              name="contactFormCustomer"
+              id="contactFormStudentButton"
+              value="student"
+            />
+            Ученик</label
+          >
         </div>
         <input
           type="text"
@@ -39,6 +43,25 @@
           pattern="[0-9]{10}"
           placeholder="Телефон родителя"
         />
+
+        <input
+          class="student-info-line"
+          input
+          type="text"
+          id="studentName"
+          name="studentName"
+          placeholder="Имя ученика"
+        />
+        <input
+          class="student-info-line"
+          input
+          type="tel"
+          id="studentPhoneNumber"
+          name="studentPhoneNumber"
+          pattern="[0-9]{10}"
+          placeholder="Телефон ученика"
+        />
+
         <input
           type="email"
           id="parentEmail"
@@ -57,5 +80,6 @@
         <input type="button" value="Перезвоните мне" id="formButton" />
       </form>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

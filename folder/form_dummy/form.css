@@ -20,23 +20,7 @@
 }
 #contactFormStudentButton {
 }
-#parentName {
-  width: 250px;
-  margin: auto;
-}
-#parentPhoneNumber {
-  width: 250px;
-  margin: auto;
-}
-#parentEmail {
-  width: 250px;
-  margin: auto;
-}
-#classNumber {
-  width: 250px;
-  margin: auto;
-}
-#formButton {
-  width: 250px;
-  margin: auto;
-}
+
+/* #studentName {
+  display: none;
+} */
