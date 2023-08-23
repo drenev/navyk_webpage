@@ -130,13 +130,133 @@ body {
   align-items: center;
   justify-content: center;
 }
-.form-section {
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #d5d5d5;
+
+/* =================== */
+
+.wrapper {
+  max-width: 400px;
+  margin: auto;
 }
+.contact-form {
+  height: 450px;
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+
+  padding: 20px;
+  border-radius: 18px;
+
+  box-shadow: 0px 7px 11px -7px rgba(34, 60, 80, 0.15);
+}
+.contact-form__customers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-form__customers input[type="radio"] {
+  display: none;
+}
+.contact-form__customers label {
+  cursor: pointer;
+  border: 1px #9300ff solid;
+  /* border-right: none; */
+  user-select: none;
+  border-radius: 10px;
+  padding: 6px;
+}
+.contact-form__customers input[type="radio"]:checked + label {
+  background: #9300ff;
+  color: #fff;
+}
+.contact-form__customers label:hover {
+  color: #c97dff;
+}
+.contact-form__customers input[type="radio"]:disabled + label {
+  background: #ffffff;
+  color: #ffffff;
+}
+#contactFormParentButton {
+}
+#contactFormStudentButton {
+}
+#parentName {
+  width: 250px;
+  margin: auto;
+  border-bottom: 1px #2d2d2d solid;
+  line-height: 38px;
+}
+#parentPhoneNumber {
+  width: 250px;
+  margin: auto;
+  border-bottom: 1px #2d2d2d solid;
+  line-height: 38px;
+}
+#parentEmail {
+  width: 250px;
+  margin: auto;
+  border-bottom: 1px #2d2d2d solid;
+  line-height: 38px;
+}
+#classNumber {
+  width: 250px;
+  margin: auto;
+}
+#formButton {
+  width: 180px;
+  margin: auto;
+  background-color: #9300ff;
+  color: #ffffff;
+  height: 40px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.form-section {
+  /* height: 500px; */
+  /* background-color: #d5d5d5; */
+}
+.form-section__tittle {
+  font-size: 32px;
+  margin-top: 300px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+}
+.form-section__logo-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-logo {
+  width: 550px;
+}
+.form-logo-description {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2d2d2d;
+}
+.form-section__form-and-logo {
+  max-width: 65%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.form-section__bg-puzzle {
+  position: absolute;
+  opacity: 8%;
+  z-index: -99;
+  /* margin-top: 1%; */
+}
+
+/* =================== */
 .footer {
   min-height: 270px;
   width: 100%;

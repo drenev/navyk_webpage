@@ -1,7 +1,42 @@
-.wrapper{
-    max-width: 400px;
+* {
+  border: 1px red solid;
 }
-.contact-form{
-    display: flex;
-    flex-direction: column;
+
+.wrapper {
+  max-width: 400px;
+  margin: auto;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-form__customers {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+#contactFormParentButton {
+}
+#contactFormStudentButton {
+}
+#parentName {
+  width: 250px;
+  margin: auto;
+}
+#parentPhoneNumber {
+  width: 250px;
+  margin: auto;
+}
+#parentEmail {
+  width: 250px;
+  margin: auto;
+}
+#classNumber {
+  width: 250px;
+  margin: auto;
+}
+#formButton {
+  width: 250px;
+  margin: auto;
 }
