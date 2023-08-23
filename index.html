@@ -198,90 +198,93 @@
         <span class="colour-purple">Заполни форму,</span> чтобы оставить заявку
       </h2>
 
+      <div class="form-section__form-and-logo">
+        <form action="" class="form-section__contact-form">
+          <div class="contact-form__slider">
+            <input
+              type="radio"
+              name="contactFormCustomer"
+              id="contactFormParentButton"
+              value="parent"
+            />
+            <label for="contactFormParentButton"> Родитель</label>
+            <input
+              type="radio"
+              name="contactFormCustomer"
+              id="contactFormStudentButton"
+              value="student"
+            />
+            <label for="contactFormStudentButton"> Ученик</label>
+          </div>
+
+          <input
+            type="text"
+            id="parentName"
+            name="parentName"
+            placeholder="Имя родителя"
+            class="contact-form__info-line"
+          />
+          <input
+            type="tel"
+            id="parentPhoneNumber"
+            name="parentPhoneNumber"
+            pattern="[0-9]{10}"
+            placeholder="Телефон родителя"
+            class="contact-form__info-line"
+          />
+          <input
+            type="email"
+            id="parentEmail"
+            name="parentEmail"
+            placeholder="Электронная почта родителя"
+            class="contact-form__info-line"
+          />
+          <input
+            type="text"
+            id="studentName"
+            name="studentName"
+            placeholder="Имя ученика"
+            class="contact-form__info-line"
+          />
+          <input
+            type="tel"
+            id="studentPhoneNumber"
+            name="studentPhoneNumber"
+            pattern="[0-9]{10}"
+            placeholder="Телефон ученика"
+            class="contact-form__info-line"
+          />
+          <select
+            name="classNumber"
+            id="classNumber"
+            class="contact-form__select"
+          >
+            <option value="5">5 класс</option>
+            <option value="6">6 класс</option>
+            <option value="7">7 класс</option>
+            <option value="8">8 класс</option>
+            <option value="9">9 класс</option>
+            <option value="10">10 класс</option>
+            <option value="11">11 класс</option>
+          </select>
+          <button class="contact-form__button">Перезвоните мне</button>
+        </form>
+        <div class="form-section__logo-and-description">
+          <img
+            src="assets/FORM-LOGO-LOW-SCALE.svg"
+            alt=""
+            class="form-section__logo"
+          />
+          <p class="form-section__description">больше, чем знание</p>
+        </div>
+      </div>
       <img
         src="assets/bg-puzzle-texture.png"
         alt=""
         class="form-section__bg-puzzle"
       />
-
-      <div class="form-section__form-and-logo">
-        <div class="wrapper">
-          <form class="contact-form" id="contactForm" action="#" method="post">
-            <div class="contact-form__customers">
-              <input
-                type="radio"
-                name="contactFormCustomer"
-                id="contactFormParentButton"
-                value="parent"
-              />
-              <label for="contactFormParentButton">Родитель</label>
-
-              <input
-                type="radio"
-                name="contactFormCustomer"
-                id="contactFormStudentButton"
-                value="student"
-              />
-              <label for="contactFormStudentButton">Ученик</label>
-            </div>
-
-            <input
-              type="text"
-              id="parentName"
-              name="parentName"
-              placeholder="Имя родителя"
-            />
-            <input
-              type="text"
-              id="parentName"
-              name="parentName"
-              placeholder="Телефон родителя"
-            />
-
-            <input
-              class="student-info-line"
-              input
-              type="text"
-              id="studentName"
-              name="studentName"
-              placeholder="Имя ученика"
-            />
-            <input
-              class="student-info-line"
-              input
-              type="tel"
-              id="studentPhoneNumber"
-              name="studentPhoneNumber"
-              pattern="[0-9]{10}"
-              placeholder="Телефон ученика"
-            />
-
-            <input
-              type="email"
-              id="parentEmail"
-              name="parentEmail"
-              placeholder="Электронная почта родителя"
-            />
-
-            <select name="classNumber" id="classNumber">
-              <option value="5">5 класс</option>
-              <option value="6">6 класс</option>
-              <option value="7">7 класс</option>
-              <option value="8">8 класс</option>
-              <option value="9">9 класс</option>
-              <option value="10">10 класс</option>
-              <option value="11">11 класс</option>
-            </select>
-            <input type="button" value="Перезвоните мне" id="formButton" />
-          </form>
-        </div>
-
-        <div class="form-section__logo-section">
-          <img src="assets/FORM-LOGO-LOW-SCALE.svg" alt="" class="form-logo" />
-          <p class="form-logo-description">больше, чем знания</p>
-        </div>
-      </div>
     </section>
+
     <!-- ===================== -->
 
     <footer class="footer">
@@ -339,5 +342,6 @@
         </div>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -133,90 +133,100 @@ body {
 }
 
 /* =================== */
-
-.wrapper {
-  max-width: 400px;
+.form-section__contact-form {
   margin: auto;
-}
-.contact-form {
-  height: 450px;
-  width: 325px;
+  width: 350px;
+  height: 525px;
+
+  background-color: #ffffff;
+  border-radius: 20px;
+
+  font-size: 16px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #ffffff;
-
-  padding: 20px;
-  border-radius: 18px;
-
+  align-items: center;
   box-shadow: 0px 7px 11px -7px rgba(34, 60, 80, 0.15);
 }
-.contact-form__customers {
-  display: flex;
-  justify-content: space-around;
+.contact-form__info-line {
+  width: 80%;
+  line-height: 40px;
+  border-bottom: #2d2d2d 1px solid;
+  margin-top: 15px;
 }
+input::placeholder {
+  color: #808080;
+}
+input:hover {
+  filter: brightness(50%);
+}
+.contact-form__button {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 60%;
 
-.contact-form__customers input[type="radio"] {
+  color: #ffffff;
+  background-color: #9300ff;
+  font-size: 18px;
+
+  border-radius: 20px;
+  padding: 15px;
+
+  user-select: none;
+}
+.contact-form__button:hover {
+  filter: brightness(90%);
+}
+/* #classNumber {
+  margin-top: 20px;
+  font-weight: 500;
+} */
+.contact-form__select {
+  width: 80%;
+  border-bottom: #2d2d2d 1px solid;
+  margin-top: 30px;
+  font-size: 18px;
+  color: #2d2d2d;
+}
+.contact-form__slider {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.contact-form__slider label {
+  text-align: center;
+  width: 45%;
+  border: 2px #9300ff solid;
+  color: #9300ff;
+  padding: 8px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  user-select: none;
+  cursor: pointer;
+}
+.contact-form__slider input[type="radio"] {
   display: none;
 }
-.contact-form__customers label {
-  cursor: pointer;
-  border: 1px #9300ff solid;
-  /* border-right: none; */
-  user-select: none;
-  border-radius: 10px;
-  padding: 6px;
-}
-.contact-form__customers input[type="radio"]:checked + label {
+.contact-form__slider input[type="radio"]:checked + label {
   background: #9300ff;
-  color: #fff;
-}
-.contact-form__customers label:hover {
-  color: #c97dff;
-}
-.contact-form__customers input[type="radio"]:disabled + label {
-  background: #ffffff;
   color: #ffffff;
 }
-/* #contactFormParentButton {
+.contact-form__slider input[type="radio"]:disabled + label {
+  background: #ffffff;
+  color: #9300ff;
+}
+.contact-form__slider label:hover {
+  filter: brightness(120%);
+}
+#contactFormParentButton {
 }
 #contactFormStudentButton {
-} */
-#parentName {
-  width: 250px;
-  margin: auto;
-  border-bottom: 1px #2d2d2d solid;
-  line-height: 38px;
 }
-#parentPhoneNumber {
-  width: 250px;
-  margin: auto;
-  border-bottom: 1px #2d2d2d solid;
-  line-height: 38px;
-}
-#parentEmail {
-  width: 250px;
-  margin: auto;
-  border-bottom: 1px #2d2d2d solid;
-  line-height: 38px;
-}
-#classNumber {
-  width: 250px;
-  margin: auto;
-}
-#formButton {
-  width: 180px;
-  margin: auto;
-  background-color: #9300ff;
-  color: #ffffff;
-  height: 40px;
-  border-radius: 15px;
-  cursor: pointer;
-}
-/* .form-section {
-  height: 500px;
-  background-color: #d5d5d5;
-} */
 .form-section__tittle {
   font-size: 32px;
   margin-top: 300px;
@@ -225,58 +235,39 @@ body {
   line-height: 44px;
   text-align: center;
 }
-.form-section__logo-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.form-logo {
-  width: 550px;
-}
-.form-logo-description {
-  font-size: 30px;
-  font-weight: 600;
-  color: #9300ff;
-  margin-top: 15px;
-}
 .form-section__form-and-logo {
-  max-width: 65%;
-  margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 100px;
-  margin-top: 100px;
+  max-width: 70%;
+  margin: auto;
+  margin-bottom: 60px;
+  margin-top: 90px;
 }
-
-.form-section__bg-puzzle {
-  position: absolute;
-  opacity: 8%;
-  z-index: -99;
-  /* margin-top: 1%; */
+.form-section__logo {
+  width: 550px;
 }
-
-.student-info-line {
+.form-section__description {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #9300ff;
+  margin-top: 20px;
+}
+.form-section__logo-and-description {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  max-width: 65%;
 }
-
-#studentName {
-  width: 250px;
-  margin: auto;
-  border-bottom: 1px #2d2d2d solid;
-  line-height: 38px;
+.form-section__bg-puzzle {
+  position: absolute;
+  width: 98.9vw;
+  opacity: 8%;
+  z-index: -99;
+  margin-top: -32%;
 }
-#studentPhoneNumber {
-  width: 250px;
-  margin: auto;
-  border-bottom: 1px #2d2d2d solid;
-  line-height: 38px;
-}
-
 /* =================== */
 .footer {
   min-height: 270px;
