@@ -1,0 +1,137 @@
+.form-section__contact-form {
+  margin: auto;
+  min-width: 350px;
+  height: 525px;
+
+  background-color: #ffffff;
+  border-radius: 20px;
+
+  font-size: 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 7px 11px -7px rgba(34, 60, 80, 0.15);
+}
+.contact-form__info-line {
+  width: 80%;
+  line-height: 40px;
+  border-bottom: #2d2d2d 1px solid;
+  margin-top: 15px;
+}
+input::placeholder {
+  color: #808080;
+}
+input:hover {
+  filter: brightness(50%);
+}
+.contact-form__button {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 60%;
+
+  color: #ffffff;
+  background-color: #9300ff;
+  font-size: 18px;
+
+  border-radius: 20px;
+  padding: 15px;
+
+  user-select: none;
+}
+.contact-form__button:hover {
+  filter: brightness(90%);
+}
+/* #classNumber {
+  margin-top: 20px;
+  font-weight: 500;
+} */
+.contact-form__select {
+  width: 80%;
+  border-bottom: #2d2d2d 1px solid;
+  margin-top: 30px;
+  font-size: 18px;
+  color: #2d2d2d;
+}
+.contact-form__slider {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.contact-form__slider label {
+  text-align: center;
+  width: 45%;
+  border: 2px #9300ff solid;
+  color: #9300ff;
+  padding: 8px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  user-select: none;
+  cursor: pointer;
+}
+.contact-form__slider input[type="radio"] {
+  display: none;
+}
+.contact-form__slider input[type="radio"]:checked + label {
+  background: #9300ff;
+  color: #ffffff;
+}
+.contact-form__slider input[type="radio"]:disabled + label {
+  background: #ffffff;
+  color: #9300ff;
+}
+.contact-form__slider label:hover {
+  filter: brightness(120%);
+}
+#contactFormParentButton {
+}
+#contactFormStudentButton {
+}
+.form-section__tittle {
+  font-size: 32px;
+  margin-top: 300px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+}
+.form-section__form-and-logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 70%;
+  margin: auto;
+  margin-bottom: 60px;
+  margin-top: 90px;
+}
+.form-section__logo {
+  width: 550px;
+}
+.form-section__description {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #9300ff;
+  margin-top: 20px;
+}
+.form-section__logo-and-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 65%;
+}
+.form-section__bg-puzzle {
+  position: absolute;
+  width: 100vw;
+  min-width: 100vw;
+  opacity: 8%;
+  z-index: -99;
+  margin-top: -32%;
+}
