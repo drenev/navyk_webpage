@@ -88,10 +88,10 @@ input:hover {
 .contact-form__slider label:hover {
   filter: brightness(120%);
 }
-#contactFormParentButton {
+/* #contactFormParentButton {
 }
 #contactFormStudentButton {
-}
+} */
 .form-section__tittle {
   font-size: 32px;
   margin-top: 300px;
@@ -134,4 +134,12 @@ input:hover {
   opacity: 8%;
   z-index: -99;
   margin-top: -32%;
+}
+@media (max-width: 1350px) {
+  .form-section__logo-and-description {
+    display: none;
+  }
+  .form-section__bg-puzzle {
+    width: 200%;
+  }
 }
