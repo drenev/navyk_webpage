@@ -19,3 +19,10 @@ body {
 .colour-purple {
   color: #9300ff;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+    scroll-padding-top: 10%;
+  }
+}
