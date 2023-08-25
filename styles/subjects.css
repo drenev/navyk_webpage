@@ -3,6 +3,7 @@
   margin: auto;
   max-width: 1000px;
   margin-top: 150px;
+  /* background-color: #9300ff; */
 }
 .subjects__tittle {
   font-size: 32px;
@@ -36,10 +37,12 @@
   cursor: pointer;
   user-select: none;
 }
+
 .subjects__el:hover {
   border: 4px #9300ff solid;
   color: #9300ff;
   width: 310px;
+  height: 85;
 
   transition: 100ms;
 }
