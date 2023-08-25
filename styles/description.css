@@ -52,7 +52,7 @@
 }
 .card-animation {
   animation-name: card_occurrence;
-  animation-duration: 2.85s;
+  animation-duration: 2.6s;
 }
 
 @keyframes card_occurrence {
