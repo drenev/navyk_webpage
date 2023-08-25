@@ -1,3 +1,4 @@
+// FORM SWITCH
 const studentButton = document.getElementById("contactFormStudentButton");
 const parentButton = document.getElementById("contactFormParentButton");
 const studentName = document.getElementById("studentName");
@@ -22,3 +23,18 @@ studentButton.addEventListener("change", () => {
     studentPhoneNumber.style.display = "inline";
   }
 });
+
+// COURSE SWITCH
+// const coursesAnimation = document.querySelectorAll(".courses__item");
+
+// for (let i = 0; i < coursesAnimation.length; i++) {
+//   coursesAnimation[i].onmouseover = function (event) {
+//     coursesAnimation[i].style.display = "none";
+//     coursesBlock[i].style.display = "flex";
+//   };
+
+//   coursesBlock[i].onmouseout = function (event) {
+//     coursesAnimation[i].style.display = "flex";
+//     coursesBlock[i].style.display = "none";
+//   };
+// }

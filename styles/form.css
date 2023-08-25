@@ -94,7 +94,7 @@ input:hover {
 } */
 .form-section__tittle {
   font-size: 32px;
-  margin-top: 300px;
+  margin-top: 175px;
   margin-bottom: 40px;
   font-weight: 600;
   line-height: 44px;
@@ -129,17 +129,8 @@ input:hover {
 }
 .form-section__bg-puzzle {
   position: absolute;
-  width: 100vw;
-  min-width: 100vw;
+  width: 100%;
   opacity: 8%;
   z-index: -99;
   margin-top: -32%;
-}
-@media (max-width: 1350px) {
-  .form-section__logo-and-description {
-    display: none;
-  }
-  .form-section__bg-puzzle {
-    width: 200%;
-  }
 }
