@@ -50,6 +50,22 @@
 .description__image_handeshake {
   width: 22%;
 }
+.card-animation {
+  animation-name: card_occurrence;
+  animation-duration: 2.85s;
+}
+
+@keyframes card_occurrence {
+  0% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 @media (max-width: 1100px) {
   .description {
