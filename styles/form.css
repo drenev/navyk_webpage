@@ -82,7 +82,7 @@ input:hover {
   color: #9300ff;
 }
 .contact-form__slider label:hover {
-  filter: brightness(120%);
+  filter: brightness(90%);
 }
 .form-section__tittle {
   font-size: 32px;
