@@ -7,7 +7,7 @@
   align-items: center;
 }
 .footer__wrapper {
-  width: 80%;
+  width: 95%;
   max-width: 1600px;
   display: flex;
   justify-content: space-around;
@@ -17,10 +17,11 @@
   display: flex;
   flex-direction: column;
   justify-content: left;
-  align-items: start;
-  width: 25%;
+  align-items:start;
+  width: 20%;
   min-width: 200px;
   margin-top: 20px;
+  text-align: center;
 }
 .footer__logo {
   display: flex;
