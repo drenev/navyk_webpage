@@ -46,3 +46,29 @@
 
   transition: 100ms;
 }
+
+@media (max-width: 1500px) {
+  .subjects {
+    width: 100%;
+  }
+  .subjects__el {
+  }
+}
+
+@media (max-width: 1100px) {
+  .subjects {
+    width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  .subjects__tittle {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .subjects__el {
+    font-size: 18px;
+  }
+  .subjects {
+    margin-top: 100px;
+  }
+}

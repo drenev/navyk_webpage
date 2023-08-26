@@ -7,7 +7,7 @@
   margin-top: 300px;
   font-size: 36px;
   font-weight: 600;
-  line-height: 44px;
+  /* line-height: 44px; */
   text-align: center;
 }
 .courses__description {
@@ -74,4 +74,35 @@
 }
 .item__text {
   padding: 20px;
+}
+
+@media (max-width: 1100px) {
+  .courses {
+    width: 55%;
+  }
+  .courses__item {
+    min-width: 100%;
+  }
+  .item__content {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .courses {
+    width: 80%;
+  }
+  .courses__header {
+    font-size: 24px;
+  }
+  .courses__item {
+    font-size: 20px;
+  }
+  .item__content {
+    font-size: 18px;
+    /* line-height: 20px; */
+  }
+  .item__text {
+    padding: 30px;
+  }
 }

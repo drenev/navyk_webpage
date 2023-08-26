@@ -77,6 +77,13 @@
     width: 100%;
   }
   .description__text {
-    font-size: 19px;
+    font-size: 14px;
+  }
+  .description__text-card {
+    border: 4px #e0caf0 solid;
+    min-height: 100px;
+  }
+  .description {
+    margin-top: 50px;
   }
 }
