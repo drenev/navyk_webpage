@@ -24,17 +24,18 @@ studentButton.addEventListener("change", () => {
   }
 });
 
-// COURSE SWITCH
-// const coursesAnimation = document.querySelectorAll(".courses__item");
+let coll = document.getElementsByClassName("courses__item");
+for (let i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+    let content = this.nextElementSibling;
 
-// for (let i = 0; i < coursesAnimation.length; i++) {
-//   coursesAnimation[i].onmouseover = function (event) {
-//     coursesAnimation[i].style.display = "none";
-//     coursesBlock[i].style.display = "flex";
-//   };
-
-//   coursesBlock[i].onmouseout = function (event) {
-//     coursesAnimation[i].style.display = "flex";
-//     coursesBlock[i].style.display = "none";
-//   };
-// }
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+      content.style.border = "#e0caf0 0px solid";
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+      content.style.border = "#e0caf0 4px solid";
+    }
+  });
+}
