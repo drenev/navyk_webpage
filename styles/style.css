@@ -2,6 +2,7 @@
   /* border: 1px solid red; */
   font-family: "Montserrat", sans-serif;
   color: #2d2d2d;
+
 }
 
 /* a:hover {
@@ -13,7 +14,12 @@ img {
 }
 
 body {
-  background-color: #f3f3f3;
+  /* background-color: #ededed; */
+  background:#f4f4f4 url(../assets/bg-puzzle-texture.svg) no-repeat;
+  /* -webkit-background-size: contain; */
+  background-size: auto;
+  background-position-y: 92.6%;
+
 }
 
 .colour-purple {
@@ -24,5 +30,11 @@ body {
   :root {
     scroll-behavior: smooth;
     scroll-padding-top: 10%;
+  }
+}
+
+@media (max-width: 1000px) {
+  body{
+    background-position-y: 92.3%;
   }
 }
