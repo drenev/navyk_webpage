@@ -3,19 +3,23 @@
   font-family: "Montserrat", sans-serif;
   color: #2d2d2d;
 }
+
 img {
-  /* user-select: none; */
+  user-select: none;
 }
+
 /* background puzzle */
 body {
   background:#f4f4f4 url(../assets/bg-puzzle-texture.svg) no-repeat;
   background-size: auto;
   background-position-y: 92.6%;
 }
+
 /* purple text */
 .colour-purple {
   color: #9300ff;
 }
+
 /* smooth scroll */
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -23,6 +27,7 @@ body {
     scroll-padding-top: 10%;
   }
 }
+
 /* form puzzle adaptive view */
 @media (max-width: 1000px) {
   body{

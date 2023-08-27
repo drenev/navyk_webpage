@@ -32,10 +32,10 @@ for (let i = 0; i < coll.length; i++) {
 
     if (content.style.maxHeight) {
       content.style.maxHeight = null;
-      content.style.border = "#e0caf0 0px solid";
+      // content.style.border = "#e0caf0 0px solid";
     } else {
       content.style.maxHeight = content.scrollHeight + "px";
-      content.style.border = "#e0caf0 4px solid";
+      // content.style.border = "#e0caf0 4px solid";
     }
   });
 }

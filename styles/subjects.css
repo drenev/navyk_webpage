@@ -3,8 +3,8 @@
   margin: auto;
   max-width: 1000px;
   margin-top: 150px;
-  /* background-color: #9300ff; */
 }
+
 .subjects__tittle {
   font-size: 32px;
   font-weight: 600;
@@ -12,11 +12,13 @@
   line-height: 44px;
   text-align: center;
 }
+
 .subjects__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .subjects__el {
   color: #808080;
   font-weight: 600;
@@ -33,7 +35,6 @@
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
-
   cursor: pointer;
   user-select: none;
 }
@@ -43,10 +44,10 @@
   color: #9300ff;
   width: 310px;
   height: 85;
-
   transition: 100ms;
 }
 
+/* subjects adaptive view start */
 @media (max-width: 1500px) {
   .subjects {
     width: 100%;
@@ -72,3 +73,4 @@
     margin-top: 100px;
   }
 }
+/* subjects adaptive view end */

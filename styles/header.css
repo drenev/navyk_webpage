@@ -22,7 +22,8 @@
   animation-name: occurrence_description;
   animation-duration: 2.25s;
 }
-/* header animation */
+
+/* header animation start*/
 @keyframes occurrence_tittle {
   0% {
     opacity: 0;
@@ -46,7 +47,9 @@
     opacity: 1;
   }
 }
+/* header animation end*/
 
+/* header adaptive view start */
 @media (max-width: 1100px) {
   .header {
     margin-top: 120px;
@@ -80,3 +83,4 @@
     font-size: 24px;
   }
 }
+/* header adaptive view end */

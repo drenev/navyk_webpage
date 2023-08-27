@@ -7,14 +7,17 @@
   align-items: flex-start;
   margin-top: 100px;
 }
+
 .description__card {
   width: 480px;
   display: flex;
   flex-direction: column;
 }
+
 .description__card:nth-child(2n) {
   align-self: flex-end;
 }
+
 .description__text-card {
   border: 5px #e0caf0 solid;
   border-radius: 35px;
@@ -26,19 +29,23 @@
   background-color: white;
   margin-bottom: 10px;
 }
+
 .description__text {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2em;
   text-align: center;
 }
+
 .description__image {
   margin: auto;
   z-index: -1;
 }
+
 .description__image_fgos {
   width: 45%;
 }
+
 .description__image-puzzle {
   width: 25%;
   margin-top: -25px;
@@ -46,9 +53,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 .description__image_handeshake {
   width: 22%;
 }
+
 .card-animation {
   animation-name: card_occurrence;
   animation-duration: 2.6s;
