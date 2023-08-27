@@ -2,37 +2,28 @@
   /* border: 1px solid red; */
   font-family: "Montserrat", sans-serif;
   color: #2d2d2d;
-
 }
-
-/* a:hover {
-  opacity: 0.7;
-} */
-
 img {
-  user-select: none;
+  /* user-select: none; */
 }
-
+/* background puzzle */
 body {
-  /* background-color: #ededed; */
   background:#f4f4f4 url(../assets/bg-puzzle-texture.svg) no-repeat;
-  /* -webkit-background-size: contain; */
   background-size: auto;
   background-position-y: 92.6%;
-
 }
-
+/* purple text */
 .colour-purple {
   color: #9300ff;
 }
-
+/* smooth scroll */
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
     scroll-padding-top: 10%;
   }
 }
-
+/* form puzzle adaptive view */
 @media (max-width: 1000px) {
   body{
     background-position-y: 92.3%;

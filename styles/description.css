@@ -14,7 +14,6 @@
 }
 .description__card:nth-child(2n) {
   align-self: flex-end;
-  /* margin-bottom: 35px; */
 }
 .description__text-card {
   border: 5px #e0caf0 solid;
@@ -55,6 +54,7 @@
   animation-duration: 2.6s;
 }
 
+/* description animation start*/
 @keyframes card_occurrence {
   0% {
     opacity: 0;
@@ -66,7 +66,9 @@
     opacity: 1;
   }
 }
+/* description animation end*/
 
+/* description adaptive view start*/
 @media (max-width: 1100px) {
   .description {
     width: 80%;
@@ -87,3 +89,4 @@
     margin-top: 50px;
   }
 }
+/* description adaptive view end*/

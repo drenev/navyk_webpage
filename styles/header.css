@@ -1,23 +1,19 @@
 .header {
-
   width: 65%;
   margin: auto;
   margin-top: 110px;
   margin-bottom: 60px;
-  /* background-color: #ffffff; */
-  /* border: #e0caf0 solid 4px; */
-  /* border-radius: 50px; */
-  /* padding: 25px; */
 }
+
 .header__tittle {
   font-size: 45px;
   font-weight: 800;
   line-height: 1.3em;
   text-align: center;
-
   animation-name: occurrence_tittle;
   animation-duration: 2s;
 }
+
 .header__subtittle {
   font-size: 32px;
   font-weight: 500;
@@ -26,7 +22,7 @@
   animation-name: occurrence_description;
   animation-duration: 2.25s;
 }
-
+/* header animation */
 @keyframes occurrence_tittle {
   0% {
     opacity: 0;
