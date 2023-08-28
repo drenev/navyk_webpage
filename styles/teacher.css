@@ -45,6 +45,7 @@
   font-weight: 600;
   text-align: center;
   color: #9300ff;
+  margin: auto;
 }
 .teacher__description {
   /* height: 500px; */
@@ -87,70 +88,40 @@
   transform: scaleX(-1);
   z-index: -1;
 }
-/* .teachers {
-  width: 65%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#teacher__card-yana {
+}
+@media (max-width: 1100px) {
+  .teacher__card {
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+  }
+  #teacher__card-yana {
+    flex-wrap: wrap-reverse;
+  }
+  .teacher__description {
+    margin-top: 20px;
+  }
 }
 
-.teachers__card {
-  display: flex;
-  justify-content: space-between;
-  align-items: end;
+@media (max-width: 600px) {
+  .teacher__description-list-el {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+  }
+  .teacher__description-list {
+    max-width: 100%;
+    /* height: 95%; */
+  }
+  .teachers {
+    width: 90%;
+  }
+  .teacher__photo {
+    width: 75%;
+    margin: auto;
+  }
+  .teachers__tittle {
+    font-size: 24px;
+    line-height: 22px;
+  }
 }
-
-.teachers__photo {
-  height: 100%;
-  margin-right: 40px;
-  box-shadow: 0px 7px 11px -7px rgba(34, 60, 80, 0.15);
-  border-radius: 35px;
-  background-color: white;
-}
-
-.teachers__description {
-  max-width: 650px;
-  min-height: 50vh;
-  background-color: white;
-  box-shadow: 0px 7px 11px -7px rgba(34, 60, 80, 0.15);
-  border-radius: 35px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.teachers__name {
-  margin-top: 25px;
-  margin-bottom: 20px;
-  font-size: 28px;
-  font-weight: 600;
-  text-align: center;
-  color: #9300ff;
-}
-
-.teachers__name:first-child {
-  margin-bottom: -15px;
-}
-
-.teachers__text {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  text-align: left;
-  width: 90%;
-}
-
-.teachers__paragraph {
-  margin-bottom: 5px;
-  list-style-type: disc;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25px;
-  text-align: left;
-  padding: 2.5px;
-}
-
-.teachers__paragraph:last-child {
-  margin: 0;
-} */
