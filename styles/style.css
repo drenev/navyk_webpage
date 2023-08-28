@@ -10,7 +10,7 @@ img {
 
 /* background puzzle */
 body {
-  background:#f4f4f4 url(../assets/bg-puzzle-texture.svg) no-repeat;
+  background: #f4f4f4 url(../assets/bg-puzzle-texture.svg) no-repeat;
   background-size: auto;
   background-position-y: 94.2%;
 }
@@ -30,7 +30,7 @@ body {
 
 /* form puzzle adaptive view */
 @media (max-width: 1000px) {
-  body{
+  body {
     background-position-y: 92.3%;
   }
 }
