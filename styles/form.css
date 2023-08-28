@@ -16,7 +16,7 @@
   width: 80%;
   line-height: 35px;
   border-bottom: #2d2d2d 1px solid;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 input::placeholder {
@@ -50,7 +50,15 @@ input:hover {
   font-size: 18px;
   color: #2d2d2d;
 }
-
+.contact__form-privacy{
+  max-width: 290px;
+  text-align: left;
+  font-size: 14px;
+  color: #c7c7c7;
+}
+.contact__form-privacy:hover{
+  text-decoration: underline;
+}
 .contact-form__slider {
   width: 80%;
   display: flex;

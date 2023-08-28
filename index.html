@@ -21,10 +21,10 @@
 
   <!-- ===================== -->
 
-  <body>
+  <body id="nav-anchor">
     <nav class="navigation">
       <div class="navigation__wrapper">
-        <a href="index.html">
+        <a href="#nav-anchor">
           <img
             src="/assets/logotype.svg"
             alt="navigation__logo"
@@ -128,34 +128,111 @@
       <h2 class="teachers__tittle">
         <span class="colour-purple">Преподаватели</span> русского языка
       </h2>
-      <div class="teachers__card">
-        <div class="teachers__photo">
+
+      <div class="teacher__card">
+        <div class="teacher__photo-and-name">
           <img
-            class="teachers__photos"
-            src="./assets/peoples/vlad.png"
-            alt="teacher_photo"
+            src="./assets/peoples/vlad-ebalo.png"
+            alt="teacher__photo"
+            class="teacher__photo"
           />
+          <div class="teacher__name">
+            <p class="teacher__surname">СУХОВ</p>
+            <p class="teacher__name-and-lastname">Владислав Сергеевич</p>
+          </div>
         </div>
-        <div class="teachers__description">
-          <h2 class="teachers__name">СУХОВ</h2>
-          <h2 class="teachers__name">Владислав Сергеевич</h2>
-          <ul class="teachers__text">
-            <li class="teachers__paragraph">
-              преподаватель регионального образовательного центра "Взлёт" и
+
+        <div class="teacher__description">
+          <ul class="teacher__description-list">
+            <li class="teacher__description-list-el">
+              Преподаватель регионального образовательного центра "Взлёт" и
               школьной академии главы города Королёва
             </li>
-            <li class="teachers__paragraph">
-              учитель русского языка в одном из лучших лицеев Подмосковья
+            <li class="teacher__description-list-el">
+              Учитель русского языка в одном из лучших лицеев Подмосковья
             </li>
-            <li class="teachers__paragraph">
-              составитель и проверяющий отборочных этапов ВсОШ по русскому языку
+            <li class="teacher__description-list-el">
+              Составитель и проверяющий отборочных этапов ВсОШ по русскому языку
             </li>
-            <li class="teachers__paragraph">
-              победитель филологических олимпиад разных уровней, участник
+            <li class="teacher__description-list-el">
+              Победитель филологических олимпиад разных уровней, участник
               научных конференций по лингвистике и лингвометодике
             </li>
-            <li class="teachers__paragraph">
-              закончил школу с золотой медалью, сдал ОГЭ на 5 и ЕГЭ на 90+ без
+            <li class="teacher__description-list-el">
+              Закончил школу с золотой медалью, сдал ОГЭ на 5 и ЕГЭ на 90+ без
+              специальной подготовки
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="teacher__card">
+        <div class="teacher__description">
+          <ul class="teacher__description-list">
+            <li class="teacher__description-list-el">
+              Двукратный призёр заключительного этапа ВсОШ по русскому языку
+            </li>
+            <li class="teacher__description-list-el">
+              Двукратный призëр регионального этапа ВсОШ по литературе
+            </li>
+            <li class="teacher__description-list-el">
+              Дипломант I и III степени олимпиады РГГУ для школьников по
+              русскому языку
+            </li>
+            <li class="teacher__description-list-el">
+              Награждена медалью "За особые успехи в учении"
+            </li>
+            <li class="teacher__description-list-el">
+              Студентка филологического факультета Московского государственного
+              университета имени М.В. Ломоносова
+            </li>
+          </ul>
+        </div>
+        <div class="teacher__photo-and-name">
+          <img
+            src="./assets/peoples/yana-ebalo.png"
+            alt="teacher__photo"
+            class="teacher__photo"
+          />
+          <div class="teacher__name">
+            <p class="teacher__surname">ЛАГОВСКАЯ</p>
+            <p class="teacher__name-and-lastname">Яна Андреевна</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="teacher__card">
+        <div class="teacher__photo-and-name">
+          <img
+            src="./assets/peoples/olya-ebalo.png"
+            alt="teacher__photo"
+            class="teacher__photo"
+          />
+          <div class="teacher__name">
+            <p class="teacher__surname">ЛИЗУНОВА</p>
+            <p class="teacher__name-and-lastname">Ольга Вадимовна</p>
+          </div>
+        </div>
+
+        <div class="teacher__description">
+          <ul class="teacher__description-list">
+            <li class="teacher__description-list-el">
+              Преподаватель регионального образовательного центра "Взлёт" и
+              школьной академии главы города Королёва
+            </li>
+            <li class="teacher__description-list-el">
+              Учитель русского языка в одном из лучших лицеев Подмосковья
+            </li>
+            <li class="teacher__description-list-el">
+              Составитель и проверяющий отборочных этапов ВсОШ по русскому языку
+            </li>
+            <li class="teacher__description-list-el">
+              Победитель филологических олимпиад разных уровней, участник
+              научных конференций по лингвистике и лингвометодике
+            </li>
+            <li class="teacher__description-list-el">
+              Закончил школу с золотой медалью, сдал ОГЭ на 5 и ЕГЭ на 90+ без
               специальной подготовки
             </li>
           </ul>
@@ -293,9 +370,12 @@
               class="custom-checkbox"
             />
             <label class="contact-form__accept-text" for="accept"
-              >Ознакомлен(a) с политикой обработки персональных данных</label
+              >Согласен с политикой обработки персональных данных</label
             >
           </div>
+          <a href="./navyk-processing-of-personal-data.html" class="contact__form-privacy">
+            * политика обработки персональных данных
+          </a>
           <button class="contact-form__button">Перезвоните мне</button>
         </form>
         <div class="form-section__logo-and-description">
@@ -356,6 +436,9 @@
           <p class="footer__subtittle">Документы</p>
           <a href="./navyk-public-offer.html" class="footer__contacts-number"
             >Публичная оферта</a
+          >
+          <a href="./navyk-privacy-policy.html" class="footer__contacts-number"
+            >Политика конфенденциальности</a
           >
         </div>
         <div class="footer__block">
