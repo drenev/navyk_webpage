@@ -77,6 +77,9 @@
   line-height: 35px;
   font-weight: 500;
 }
+.teacher__description-list-el:first-child {
+  list-style-type: none;
+}
 .teacher__description-list-el::marker {
   color: #9300ff;
 }
@@ -106,7 +109,16 @@
     margin-top: 20px;
   }
 }
-
+.teacher__position {
+  font-weight: 600;
+  font-size: 22px;
+  color: #2d2d2d;
+  margin-bottom: 15px;
+}
+.teacher__position-subject {
+  font-weight: 700;
+  color: #9300ff;
+}
 @media (max-width: 600px) {
   .teacher__description-list-el {
     font-size: 16px;
