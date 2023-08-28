@@ -75,6 +75,10 @@
   padding: 10px;
   font-size: 18px;
   line-height: 35px;
+  font-weight: 500;
+}
+.teacher__description-list-el::marker {
+  color: #9300ff;
 }
 .teachers__tittle {
   font-size: 32px;
