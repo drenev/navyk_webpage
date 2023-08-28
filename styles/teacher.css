@@ -79,6 +79,10 @@
 }
 .teacher__description-list-el:first-child {
   list-style-type: none;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  /* text-align: center; */
+  /* justify-content:center ; */
 }
 .teacher__description-list-el::marker {
   color: #9300ff;
@@ -107,6 +111,8 @@
   }
   .teacher__description {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
   }
 }
 .teacher__position {
@@ -114,6 +120,9 @@
   font-size: 22px;
   color: #2d2d2d;
   margin-bottom: 15px;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
 }
 .teacher__position-subject {
   font-weight: 700;
