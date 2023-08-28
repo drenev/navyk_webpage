@@ -243,37 +243,64 @@
 
     <section class="courses" id="courses">
       <h2 class="courses__header">
-        <span class="colour-purple">Курсы </span>русского языка
+        <span class="colour-purple">Курсы </span>по русскому языку
       </h2>
-      <p class="courses__description">
+      <p class="courses__tittle-description">
         * наведи курсор, чтобы узнать больше информации
       </p>
-      <div class="courses__container">
-        <div class="courses__item">Профтестирование</div>
-        <div class="item__content">
-          <p class="item__text">IDK</p>
+      <div class="course__conteiner">
+        <div class="course__card">
+          <p class="course__name">Профтестирование</p>
+          <p class="course__description">* разработке</p>
+          <div class="course__price-and-button">
+            <p class="course__price">бесплатно</p>
+            <a href="#form" class="course__button">записаться</a>
+          </div>
         </div>
-        <div class="courses__item">Диагностика</div>
-        <div class="item__content">
-          <p class="item__text">IDK</p>
-        </div>
-        <div class="courses__item">Вводный курс</div>
-        <div class="item__content">
-          <p class="item__text">* В разработке</p>
-        </div>
-        <div class="courses__item">Основной курс</div>
-        <div class="item__content">
-          <p class="item__text">
-            Не только вся школьная программа с опорой на кодификатор ЕГЭ, но и
-            выход за её рамки. Даётся ответ на вопрос, для чего нам необходимо
-            изучать язык, а также обосновываются ненавистные для школьников
-            правила орфографии и пунктуации через экскурс по историческим
-            языковым процессам и устройству современного языка.
+
+        <div class="course__card">
+          <p class="course__name">Диагностика</p>
+          <p class="course__description">
+            Авторское тестирование, проверяющее уровень языкового развития и
+            универсальных учебных действий.
           </p>
+          <div class="course__price-and-button">
+            <p class="course__price">бесплатно</p>
+            <a href="#form" class="course__button">записаться</a>
+          </div>
         </div>
-        <div class="courses__item">Углублённый курс</div>
-        <div class="item__content">
-          <p class="item__text">
+
+        <div class="course__card">
+          <p class="course__name">Вводный курс</p>
+          <p class="course__description">
+            Введение в деятельностную технологию обучения через развитие речи.
+            Курс позволяет с нуля научиться писать и оценивать сочинения и
+            изложения на примере заданий ОГЭ.
+          </p>
+          <div class="course__price-and-button">
+            <p class="course__price">от - ₽/занятие</p>
+            <a href="#form" class="course__button">записаться</a>
+          </div>
+        </div>
+
+        <div class="course__card">
+          <p class="course__name">Основной курс</p>
+          <p class="course__description">
+            Уникальный универсальный способ освоить нормы русского литературного
+            языка, соответствующий всем образовательным стандартам, но выходящий
+            за рамки школьной программы. Учащиеся находят ответ на вопрос "Зачем
+            необходимо изучать язык?" и научно обосновывают ненавистные для
+            школьников правила орфографии и пунктуации.
+          </p>
+          <div class="course__price-and-button">
+            <p class="course__price">от 375 ₽/занятие</p>
+            <a href="#form" class="course__button">записаться</a>
+          </div>
+        </div>
+
+        <div class="course__card">
+          <p class="course__name">Углублённый курс</p>
+          <p class="course__description">
             Увлекательное погружение в тонкости языка, о которых никогда не
             расскажут в школе. Никакой орфографии и пунктуации — только
             настоящая наука. Знания из этой области в соединении со смекалкой
@@ -281,6 +308,19 @@
             победителями лингвистических олимпиад, дополнительные мастер-классы
             с профессорами филологии.
           </p>
+          <div class="course__price-and-button">
+            <p class="course__price">от 312 ₽/занятие</p>
+            <a href="#form" class="course__button">записаться</a>
+          </div>
+        </div>
+
+        <div class="course__card">
+          <p class="course__name">Интенсивный курс</p>
+          <p class="course__description">* разработке</p>
+          <div class="course__price-and-button">
+            <p class="course__price">от - ₽/занятие</p>
+            <a href="#form" class="course__button">записаться</a>
+          </div>
         </div>
       </div>
     </section>
@@ -368,24 +408,15 @@
               id="accept"
               class="custom-checkbox"
             />
-            <!-- <label class="contact-form__accept-text" for=""
-              >Согласен с обработкой персональных данных</label
-            > -->
             <p class="contact-form__accept-text">
               <a
                 href="./navyk-processing-of-personal-data.html"
                 class="contact-form__accept-link"
                 >Согласен</a
               >
-              на обработкой персональных данных
+              на обработку персональных данных
             </p>
           </div>
-          <!-- <a
-            href="./navyk-processing-of-personal-data.html"
-            class="contact__form-privacy"
-          >
-            *политика обработки персональных данных
-          </a> -->
           <button class="contact-form__button">Перезвоните мне</button>
         </form>
         <div class="form-section__logo-and-description">
