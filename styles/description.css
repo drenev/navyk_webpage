@@ -43,11 +43,11 @@
 }
 
 .description__image_fgos {
-  /* width: 45%; */
+  width: 45%;
 }
 
 .description__image-puzzle {
-  /* width: 25%; */
+  width: 25%;
   margin-top: -25px;
   z-index: -1;
   margin-left: auto;
@@ -55,7 +55,7 @@
 }
 
 .description__image_handeshake {
-  /* width: 22%; */
+  width: 22%;
 }
 
 .card-animation {
