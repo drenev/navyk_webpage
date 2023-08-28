@@ -1,4 +1,4 @@
-.teachers{
+.teachers {
   width: 60%;
   margin: auto;
   display: flex;
@@ -6,30 +6,30 @@
   /* align-items: center; */
   justify-content: center;
 }
-.teacher__card{
+.teacher__card {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-bottom: 50px;
 }
-.teacher__photo-and-name{
+.teacher__photo-and-name {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.teacher__name{
+.teacher__name {
   background-color: white;
   border-radius: 20px;
   margin-top: 20px;
   padding: 8px;
   box-shadow: 0px 7px 11px -7px rgba(34, 60, 80, 0.15);
 }
-.teacher__photo{
+.teacher__photo {
   width: 280px;
   border-radius: 35px;
   box-shadow: 0px 7px 11px -7px rgba(34, 60, 80, 0.15);
 }
-.teacher__surname{
+.teacher__surname {
   /* margin-top: 15px; */
   margin-bottom: 5px;
   font-size: 28px;
@@ -37,7 +37,7 @@
   text-align: center;
   color: #9300ff;
 }
-.teacher__name-and-lastname{
+.teacher__name-and-lastname {
   margin-top: 5px;
   /* margin-bottom: 20px; */
   font-size: 18px;
@@ -46,14 +46,13 @@
   text-align: center;
   color: #9300ff;
 }
-.teacher__description{
+.teacher__description {
   /* height: 500px; */
   display: flex;
   justify-content: center;
   /* background-color: white; */
-  
 }
-.teacher__description-list{
+.teacher__description-list {
   max-width: 85%;
   /* padding: 20px; */
   display: flex;
@@ -64,13 +63,12 @@
   margin: auto;
   background-color: white;
   border-radius: 30px;
-  
+
   height: 100%;
   /* font-weight: 500; */
   box-shadow: 0px 7px 11px -7px rgba(34, 60, 80, 0.15);
 }
-.teacher__description-list-el{
-  
+.teacher__description-list-el {
   list-style-type: disc;
   margin-left: 40px;
   padding: 10px;
@@ -84,6 +82,10 @@
   font-weight: 600;
   line-height: 44px;
   text-align: center;
+}
+#teacher__photo-yana {
+  transform: scaleX(-1);
+  z-index: -1;
 }
 /* .teachers {
   width: 65%;
