@@ -42,6 +42,7 @@
   align-items: center;
   /* margin-top: 10px; */
 }
+
 .course__name {
   font-size: 22px;
   font-weight: 600;
@@ -114,7 +115,13 @@
   /* border: 2px #ffffff solid; */
   transition: 100ms;
 }
-
+/* #course__name-last {
+  color: #c0c0c0;
+} */
+#course__description-last {
+  height: 100%;
+  background-color: #e0e0e0;
+}
 @media (max-width: 600px) {
   .course__description {
     height: 100%;
@@ -142,5 +149,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  #course__description-last {
+    height: 225px;
+    background-color: #e0e0e0;
   }
 }
