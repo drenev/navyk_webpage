@@ -58,6 +58,8 @@
   margin-top: 10px;
   margin-bottom: 10px;
 
+  user-select: none;
+
   animation-name: button-animation;
   animation-duration: 1s;
 }
