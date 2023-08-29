@@ -32,7 +32,7 @@ input:hover {
   margin-bottom: 15px;
   width: 60%;
   color: #ffffff;
-  background-color: #9300ff;
+  background-color: #c980ff;
   font-size: 18px;
   border-radius: 20px;
   padding: 15px;
@@ -40,7 +40,7 @@ input:hover {
 }
 
 .contact-form__button:hover {
-  filter: brightness(90%);
+  background-color: #9300ff;
 }
 
 .contact-form__select {
@@ -71,8 +71,8 @@ input:hover {
 .contact-form__slider label {
   text-align: center;
   width: 45%;
-  border: 2px #9300ff solid;
-  color: #9300ff;
+  border: 2px #c980ff solid;
+  color: #c980ff;
   padding: 8px;
   border-radius: 12px;
   font-size: 16px;
@@ -88,15 +88,18 @@ input:hover {
 .contact-form__slider input[type="radio"]:checked + label {
   background: #9300ff;
   color: #ffffff;
+  border: 2px #fff solid;
 }
 
 .contact-form__slider input[type="radio"]:disabled + label {
   background: #ffffff;
   color: #9300ff;
+  border: 2px #c980ff solid;
 }
 
 .contact-form__slider label:hover {
-  filter: brightness(90%);
+  border: 2px #9300ff solid;
+  color: #9300ff;
 }
 
 .form-section__tittle {
@@ -236,6 +239,11 @@ input:hover {
 @media (max-width: 1300px) {
   .form-section__logo-and-description {
     display: none;
+  }
+}
+@media (max-width: 600px) {
+  .form-section__tittle {
+    font-size: 24px;
   }
 }
 /* form adaptive view end */

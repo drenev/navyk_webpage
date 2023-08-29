@@ -12,7 +12,7 @@ img {
 body {
   background: #f4f4f4 url(../assets/bg-puzzle-texture.svg) no-repeat;
   background-size: auto;
-  background-position-y: 95%;
+  background-position-y: 96.8%;
 }
 
 /* purple text */
@@ -31,6 +31,7 @@ body {
 /* form puzzle adaptive view */
 @media (max-width: 1000px) {
   body {
-    background-position-y: 96%;
+    background-size: auto;
+    background-position-y: 92%;
   }
 }

@@ -65,13 +65,14 @@
 @media (max-width: 600px) {
   .header {
     margin-top: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    width: 95%;
   }
   .header__tittle {
-    font-size: 28px;
+    font-size: 32px;
   }
   .header__subtittle {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 @media (max-width: 380px) {
