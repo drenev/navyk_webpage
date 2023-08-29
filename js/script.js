@@ -37,3 +37,34 @@ for (let i = 0; i < coll.length; i++) {
     }
   });
 }
+
+const buttons = document.querySelector(".contact-formbutton");
+
+buttons.addEventListener("click", () => {
+  const chekedPersonalData = document.querySelector(".custom-checkbox");
+  if (chekedPersonalData.checked) {
+    let klientInformation = document.querySelectorAll(".contact-forminfo-line");
+    let klientClass = document.querySelector(".contact-form__select");
+    let order = JSON.stringify({
+      parent_name: klientInformation[0].value,
+      parent_number: klientInformation[1].value,
+      parent_mail: klientInformation[2].value,
+      student_name: klientInformation[3].value,
+      student_number: klientInformation[4].value,
+      student_class: klientClass.value,
+    });
+    console.log(order);
+    fetch("/api/callback", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=utf-8",
+      },
+      body: order,
+    })
+      .then((response) => response.json())
+      .then((result) => {
+        document.dispatchEvent(new CustomEvent("modalclose"));
+        //console.log(result)
+      });
+  }
+});
