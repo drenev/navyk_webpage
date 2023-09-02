@@ -38,9 +38,11 @@ for (let i = 0; i < coll.length; i++) {
   });
 }
 
-const buttons = document.querySelector(".contact-formbutton");
+const buttons = document.querySelector(".contact-form__button");
 
-buttons.addEventListener("click", () => {
+buttons.addEventListener("click", (e) => {
+  e.preventDefault();
+
   const chekedPersonalData = document.querySelector(".custom-checkbox");
   if (chekedPersonalData.checked) {
     let klientInformation = document.querySelectorAll(".contact-forminfo-line");
