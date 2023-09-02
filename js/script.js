@@ -45,7 +45,7 @@ buttons.addEventListener("click", (e) => {
 
   const chekedPersonalData = document.querySelector(".custom-checkbox");
   if (chekedPersonalData.checked) {
-    let klientInformation = document.querySelectorAll(".contact-forminfo-line");
+    let klientInformation = document.querySelectorAll(".contact-form__info-line");
     let klientClass = document.querySelector(".contact-form__select");
     let order = JSON.stringify({
       parent_name: klientInformation[0].value,
