@@ -48,10 +48,6 @@
   transition: 100ms;
 }
 .navigation__button {
-  font-weight: 600;
-  text-decoration: none;
-  color: #9300ff;
-  font-size: 16px;
   border: #9300ff 2px solid;
   border-radius: 15px;
   padding: 8px;
@@ -63,14 +59,24 @@
   animation-name: button-animation;
   animation-duration: 1s;
 }
+.navigation__button-text {
+  font-weight: 600;
+  text-decoration: none;
+  color: #9300ff;
+  font-size: 16px;
+}
 .navigation__button:hover {
   background-color: #9300ff;
-  color: #ffffff;
-
   transition: 100ms;
+}
+.navigation__button:hover .navigation__button-text {
+  color: #fff;
 }
 .colour-purple {
   color: #9300ff;
+}
+.navigation__button-text_lil {
+  display: none;
 }
 
 /* navigator animations start*/
@@ -151,6 +157,12 @@
   }
   .navigation__button {
     padding: 6px;
+  }
+  .navigation__button-text_big {
+    display: none;
+  }
+  .navigation__button-text_lil {
+    display: block;
   }
 }
 /* navigation adaptive view end*/
