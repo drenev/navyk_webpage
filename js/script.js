@@ -4,6 +4,12 @@ const parentButton = document.getElementById("contactFormParentButton");
 const studentName = document.getElementById("studentName");
 const studentPhoneNumber = document.getElementById("studentPhoneNumber");
 
+document.addEventListener("DOMContentLoaded", () => {
+  parentButton.checked = true;
+  studentName.style.display = "none";
+  studentPhoneNumber.style.display = "none";
+});
+
 parentButton.addEventListener("change", () => {
   if (this.checked) {
     studentName.style.display = "inline";
@@ -45,7 +51,9 @@ buttons.addEventListener("click", (e) => {
 
   const chekedPersonalData = document.querySelector(".custom-checkbox");
   if (chekedPersonalData.checked) {
-    let klientInformation = document.querySelectorAll(".contact-form__info-line");
+    let klientInformation = document.querySelectorAll(
+      ".contact-form__info-line"
+    );
     let klientClass = document.querySelector(".contact-form__select");
     let order = JSON.stringify({
       parent_name: klientInformation[0].value,
