@@ -76,5 +76,9 @@ buttons.addEventListener("click", (e) => {
         document.dispatchEvent(new CustomEvent("modalclose"));
         //console.log(result)
       });
+      /////
+      klientInformation.forEach(e => {
+        e.value="";
+      });
   }
 });
