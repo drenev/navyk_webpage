@@ -63,7 +63,6 @@ buttons.addEventListener("click", (e) => {
       student_number: klientInformation[4].value,
       student_class: klientClass.value,
     });
-    console.log(order);
     fetch("/api/callback", {
       method: "POST",
       headers: {
