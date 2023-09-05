@@ -126,8 +126,13 @@
   font-weight: 600;
 }
 @media (max-width: 600px) {
+  .courses {
+    width: 100%;
+  }
   .course__description {
     height: 100%;
+    font-size: 14px;
+    padding: 10px;
   }
   .course__card {
     height: 100%;
@@ -145,6 +150,7 @@
   }
   .courses__header {
     font-size: 24px;
+    margin-top: 40px;
   }
   .course__price-and-button {
     /* width: 80vw; */
