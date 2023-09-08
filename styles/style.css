@@ -12,7 +12,7 @@ img {
 body {
   background: #f4f4f4 url(../assets/bg-puzzle-texture.svg) no-repeat;
   background-size: auto;
-  background-position-y: 96.8%;
+  background-position-y: 95%;
 }
 
 /* purple text */
@@ -32,6 +32,6 @@ body {
 @media (max-width: 1000px) {
   body {
     background-size: auto;
-    background-position-y: 92%;
+    background-position-y: 88%;
   }
 }
