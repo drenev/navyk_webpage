@@ -47,6 +47,7 @@
   /* cursor: pointer; */
   user-select: none;
   filter: blur(2px);
+  z-index: -1;
 }
 
 /* .subjects__el:hover {
