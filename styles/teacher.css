@@ -12,6 +12,83 @@
   justify-content: center;
   margin-bottom: 50px;
 }
+.teacher__card-gac {
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 60px; */
+}
+.teacher__name-gac {
+  background-color: white;
+  border-radius: 20px;
+  padding: 14px;
+  box-shadow: 0px 7px 11px -7px rgba(34, 60, 80, 0.15);
+}
+.teacher__name-and-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin: auto; */
+  margin-bottom: 25px;
+}
+.teacher__logo-list-element-picture {
+  /* width: 10%; */
+  height: 65px;
+  border-radius: 8px;
+}
+.teacher__logo {
+  display: flex;
+  min-width: 50%;
+}
+.teacher__logo-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 700px;
+  min-width: 50%;
+  box-shadow: 0px 7px 11px -7px rgba(34, 60, 80, 0.15);
+  /* min-width: 100%; */
+  margin-left: 20px;
+  flex-wrap: wrap;
+}
+.teacher__description-list-gac {
+  max-width: 88%;
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* align-items: stretch; */
+  /* align-items: start; */
+  margin: auto;
+  background-color: white;
+  border-radius: 30px;
+}
+.teacher__description-list-el-gac {
+  list-style-type: disc;
+  margin-left: 40px;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 500;
+}
+.teacher__logo-list-element-link:hover {
+  opacity: 0.7;
+}
+.teacher__description-list-el-gac::marker {
+  color: #9300ff;
+}
+.teacher__logo-list-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
 .teacher__photo-and-name {
   display: flex;
   flex-direction: column;
@@ -102,7 +179,18 @@
 } */
 /* #teacher__card-yana {
 } */
+
+@media (max-width: 1670px) {
+  .teacher__name-gac {
+    margin-bottom: 20px;
+    width: 80%;
+  }
+}
 @media (max-width: 1100px) {
+  .teacher__logo-list {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
   .teacher__card {
     /* flex-direction: column; */
     flex-wrap: wrap;
@@ -137,9 +225,30 @@
     font-weight: 500;
     /* text-align: center; */
   }
+
+  .teacher__description-list-el-gac {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+  }
+  .teacher__description-list-gac {
+    max-width: 100%;
+    margin-left: 0px;
+  }
   .teacher__description-list {
     max-width: 100%;
+
     /* height: 95%; */
+  }
+  .teacher__logo-list {
+    margin-left: 0px;
+  }
+  .teacher__logo-list-element-picture {
+    height: 40px;
+  }
+  .teacher__name-gac {
+    width: 95%;
+    margin-bottom: 20px;
   }
   .teachers {
     width: 90%;

@@ -7,6 +7,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  border-bottom: 1px #e0e0e0 solid;
 }
 .navigation__wrapper {
   display: flex;
