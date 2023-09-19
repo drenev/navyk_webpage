@@ -69,6 +69,7 @@
   margin: auto;
   background-color: white;
   border-radius: 30px;
+  box-shadow: 0px 7px 11px -7px rgba(34, 60, 80, 0.15);
 }
 .teacher__description-list-el-gac {
   list-style-type: disc;

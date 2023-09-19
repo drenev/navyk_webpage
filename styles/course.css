@@ -96,7 +96,7 @@
 .course__button {
   padding: 15px;
   width: 48%;
-  background-color: #e3beff;
+  background-color: #9300ff;
   border-radius: 15px;
   margin-top: 10px;
   text-align: center;
@@ -110,7 +110,9 @@
   user-select: none;
 }
 .course__button:hover {
-  background-color: #9300ff;
+  /* background-color: #9300ff; */
+  /* opacity: -0.5; */
+  filter: brightness(80%);
   color: #ffffff;
   /* border: 2px #ffffff solid; */
   transition: 100ms;

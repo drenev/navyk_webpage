@@ -32,7 +32,7 @@ input:hover {
   margin-bottom: 15px;
   width: 60%;
   color: #ffffff;
-  background-color: #c980ff;
+  background-color: #9300ff;
   font-size: 18px;
   border-radius: 20px;
   padding: 15px;
@@ -41,7 +41,8 @@ input:hover {
 }
 
 .contact-form__button:hover {
-  background-color: #9300ff;
+  /* background-color: #9300ff; */
+  filter: brightness(80%);
 }
 
 .contact-form__select {
