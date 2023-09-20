@@ -75,9 +75,12 @@ buttons.addEventListener("click", (e) => {
         document.dispatchEvent(new CustomEvent("modalclose"));
         //console.log(result)
       });
-      /////
-      klientInformation.forEach(e => {
-        e.value="";
-      });
+    /////
+    klientInformation.forEach((e) => {
+      e.value = "";
+    });
+    alert("Заявка успешно отправлена!");
+  } else {
+    alert("Вы не приняли условия обработки персональных данных");
   }
 });
