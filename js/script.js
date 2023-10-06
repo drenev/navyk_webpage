@@ -53,6 +53,35 @@ const parentName = document.querySelector("#parentName");
 const parentPhoneNumber = document.querySelector("#parentPhoneNumber");
 const parentEmail = document.querySelector("#parentEmail");
 
+// функция отправки данных из формы в бота
+function SendFormInfo() {
+  let klientInformation = document.querySelectorAll(".contact-form__info-line");
+  let klientClass = document.querySelector(".contact-form__select");
+  let order = JSON.stringify({
+    parent_name: klientInformation[0].value,
+    parent_number: klientInformation[1].value,
+    parent_mail: klientInformation[2].value,
+    student_name: klientInformation[3].value,
+    student_number: klientInformation[4].value,
+    student_class: klientClass.value,
+  });
+  fetch("/api/callback", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json;charset=utf-8",
+    },
+    body: order,
+  })
+    .then((response) => response.json())
+    .then((result) => {
+      document.dispatchEvent(new CustomEvent("modalclose"));
+    });
+  klientInformation.forEach((e) => {
+    e.value = "";
+  });
+  alert("Заявка успешно отправлена!");
+}
+
 // отправка формы
 buttons.addEventListener("click", (e) => {
   e.preventDefault();
@@ -65,33 +94,7 @@ buttons.addEventListener("click", (e) => {
       parentPhoneNumber.value != "" &&
       parentEmail.value != ""
     ) {
-      let klientInformation = document.querySelectorAll(
-        ".contact-form__info-line"
-      );
-      let klientClass = document.querySelector(".contact-form__select");
-      let order = JSON.stringify({
-        parent_name: klientInformation[0].value,
-        parent_number: klientInformation[1].value,
-        parent_mail: klientInformation[2].value,
-        student_name: klientInformation[3].value,
-        student_number: klientInformation[4].value,
-        student_class: klientClass.value,
-      });
-      fetch("/api/callback", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json;charset=utf-8",
-        },
-        body: order,
-      })
-        .then((response) => response.json())
-        .then((result) => {
-          document.dispatchEvent(new CustomEvent("modalclose"));
-        });
-      klientInformation.forEach((e) => {
-        e.value = "";
-      });
-      alert("Заявка успешно отправлена!");
+      SendFormInfo();
     } else if (
       // проверка полей родителя (когда не заполнены поля)
       parentName.value == "" ||
@@ -115,33 +118,7 @@ buttons.addEventListener("click", (e) => {
       studentName.value != "" &&
       studentPhoneNumber.value != ""
     ) {
-      let klientInformation = document.querySelectorAll(
-        ".contact-form__info-line"
-      );
-      let klientClass = document.querySelector(".contact-form__select");
-      let order = JSON.stringify({
-        parent_name: klientInformation[0].value,
-        parent_number: klientInformation[1].value,
-        parent_mail: klientInformation[2].value,
-        student_name: klientInformation[3].value,
-        student_number: klientInformation[4].value,
-        student_class: klientClass.value,
-      });
-      fetch("/api/callback", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json;charset=utf-8",
-        },
-        body: order,
-      })
-        .then((response) => response.json())
-        .then((result) => {
-          document.dispatchEvent(new CustomEvent("modalclose"));
-        });
-      klientInformation.forEach((e) => {
-        e.value = "";
-      });
-      alert("Заявка успешно отправлена!");
+      SendFormInfo();
     } else if (
       // проверка полей родителя (когда не заполнены поля)
       parentName.value == "" ||
