@@ -63,7 +63,8 @@ function SendFormInfo() {
     parent_mail: klientInformation[2].value,
     student_name: klientInformation[3].value,
     student_number: klientInformation[4].value,
-    student_class: klientClass.value,
+    student_comment: klientInformation[5].value,
+    student_class: klientClass.value
   });
   fetch("/api/callback", {
     method: "POST",
