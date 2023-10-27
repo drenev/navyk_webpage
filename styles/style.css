@@ -10,7 +10,7 @@ img {
 
 /* background puzzle */
 body {
-  background: #f4f4f4 url(../assets/bg-puzzle-texture.svg) no-repeat;
+  background: #f4f4f4 url(../assets/bg-puzzle-texture.svg) repeat-x;
   background-size: auto;
   background-position-y: 95%;
 }
@@ -33,5 +33,11 @@ body {
   body {
     background-size: auto;
     background-position-y: 88%;
+  }
+}
+
+@media (max-width: 1300px) {
+  body {
+    background: none;
   }
 }

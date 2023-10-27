@@ -242,6 +242,9 @@ input:hover {
   .form-section__logo-and-description {
     display: none;
   }
+  .form-section__contact-form {
+    border: 2px #757575 solid;
+  }
 }
 @media (max-width: 600px) {
   .form-section__tittle {
