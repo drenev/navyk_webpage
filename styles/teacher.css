@@ -15,6 +15,7 @@
 .teacher__card-gac {
   display: flex;
   flex-direction: column;
+  align-items: center;
   /* margin-bottom: 60px; */
 }
 .teacher__name-gac {
@@ -129,6 +130,7 @@
   /* height: 500px; */
   display: flex;
   justify-content: center;
+  max-width: 900px;
   /* background-color: white; */
 }
 .teacher__description-list {
