@@ -79,6 +79,7 @@
   font-size: 18px;
   line-height: 35px;
   font-weight: 500;
+  margin-left: 55px;
 }
 .teacher__logo-list-element-link:hover {
   opacity: 0.7;
@@ -133,6 +134,11 @@
   max-width: 900px;
   /* background-color: white; */
 }
+.teacher__description-gac {
+  display: flex;
+  justify-content: center;
+  max-width: 1250px;
+}
 .teacher__description-list {
   max-width: 85%;
   /* padding: 20px; */
@@ -156,6 +162,7 @@
   font-size: 18px;
   line-height: 35px;
   font-weight: 500;
+  margin-left: 55px;
 }
 .teacher__description-list-el:first-child {
   list-style-type: none;
@@ -202,6 +209,12 @@
     flex-wrap: wrap-reverse;
   }
   .teacher__description {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .teacher__description-gac {
     width: 100%;
     margin-top: 20px;
     display: flex;
