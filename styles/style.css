@@ -38,6 +38,6 @@ body {
 
 @media (max-width: 1300px) {
   body {
-    background: none;
+    background: #f4f4f4;
   }
 }
