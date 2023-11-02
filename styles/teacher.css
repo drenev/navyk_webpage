@@ -193,7 +193,8 @@
 @media (max-width: 1670px) {
   .teacher__name-gac {
     margin-bottom: 20px;
-    width: 95%;
+    max-width: 100%;
+    min-width: 50%;
   }
 }
 @media (max-width: 1100px) {
