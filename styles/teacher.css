@@ -193,13 +193,18 @@
 @media (max-width: 1670px) {
   .teacher__name-gac {
     margin-bottom: 20px;
-    width: 80%;
+    width: 95%;
   }
 }
 @media (max-width: 1100px) {
+  .teacher__name-gac {
+    max-width: 75%;
+  }
   .teacher__logo-list {
     margin-top: 20px;
-    margin-left: 0px;
+    max-width: 75%;
+    margin: 0 auto;
+    /* margin-left: 0px; */
   }
   .teacher__card {
     /* flex-direction: column; */
@@ -215,7 +220,7 @@
     justify-content: center;
   }
   .teacher__description-gac {
-    width: 100%;
+    max-width: 100%;
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -248,8 +253,8 @@
     font-weight: 500;
   }
   .teacher__description-list-gac {
-    max-width: 100%;
-    margin-left: 0px;
+    max-width: 90%;
+    /* margin-left: 0px; */
   }
   .teacher__description-list {
     max-width: 100%;
@@ -257,13 +262,15 @@
     /* height: 95%; */
   }
   .teacher__logo-list {
-    margin-left: 0px;
+    max-width: 5%;
+    margin: 0 auto;
+    /* margin-left: 0px; */
   }
   .teacher__logo-list-element-picture {
     height: 40px;
   }
   .teacher__name-gac {
-    width: 95%;
+    max-width: 60%;
     margin-bottom: 20px;
   }
   .teachers {
