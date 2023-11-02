@@ -32,6 +32,7 @@
   flex-wrap: wrap;
   /* margin: auto; */
   margin-bottom: 25px;
+  max-width: 100%;
 }
 .teacher__logo-list-element-picture {
   /* width: 10%; */
@@ -263,7 +264,7 @@
     /* height: 95%; */
   }
   .teacher__logo-list {
-    max-width: 5%;
+    max-width: 80%;
     margin: 0 auto;
     /* margin-left: 0px; */
   }
@@ -271,7 +272,7 @@
     height: 40px;
   }
   .teacher__name-gac {
-    max-width: 60%;
+    max-width: 90%;
     margin-bottom: 20px;
   }
   .teachers {
