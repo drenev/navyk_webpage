@@ -51,7 +51,6 @@ const buttons = document.querySelector(".contact-form__button");
 const chekedPersonalData = document.querySelector(".custom-checkbox");
 const parentName = document.querySelector("#parentName");
 const parentPhoneNumber = document.querySelector("#parentPhoneNumber");
-const parentEmail = document.querySelector("#parentEmail");
 
 // функция отправки данных из формы в бота
 function SendFormInfo() {
@@ -60,10 +59,9 @@ function SendFormInfo() {
   let order = JSON.stringify({
     parent_name: klientInformation[0].value,
     parent_number: klientInformation[1].value,
-    parent_mail: klientInformation[2].value,
-    student_name: klientInformation[3].value,
-    student_number: klientInformation[4].value,
-    student_comment: klientInformation[5].value,
+    student_name: klientInformation[2].value,
+    student_number: klientInformation[3].value,
+    student_comment: klientInformation[4].value,
     student_class: klientClass.value
   });
   fetch("/api/callback", {
@@ -92,15 +90,13 @@ buttons.addEventListener("click", (e) => {
       // проверка чекбокса и полей родителя (когда всё заполнено)
       chekedPersonalData.checked &&
       parentName.value != "" &&
-      parentPhoneNumber.value != "" &&
-      parentEmail.value != ""
+      parentPhoneNumber.value != "" 
     ) {
       SendFormInfo();
     } else if (
       // проверка полей родителя (когда не заполнены поля)
       parentName.value == "" ||
-      parentPhoneNumber.value == "" ||
-      parentEmail.value == ""
+      parentPhoneNumber.value == ""
     ) {
       alert("Заполнены не все обязательные поля");
     } else if (!chekedPersonalData.checked) {
@@ -115,7 +111,6 @@ buttons.addEventListener("click", (e) => {
       chekedPersonalData.checked &&
       parentName.value != "" &&
       parentPhoneNumber.value != "" &&
-      parentEmail.value != "" &&
       studentName.value != "" &&
       studentPhoneNumber.value != ""
     ) {
@@ -124,7 +119,6 @@ buttons.addEventListener("click", (e) => {
       // проверка полей родителя (когда не заполнены поля)
       parentName.value == "" ||
       parentPhoneNumber.value == "" ||
-      parentEmail.value == "" ||
       studentName.value == "" ||
       studentPhoneNumber.value == ""
     ) {
